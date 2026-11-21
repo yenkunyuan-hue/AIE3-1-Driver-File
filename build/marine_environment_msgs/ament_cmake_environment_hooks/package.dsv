@@ -1,0 +1,5 @@
+source;share/marine_environment_msgs/local_setup.bash
+source;share/marine_environment_msgs/local_setup.dsv
+source;share/marine_environment_msgs/local_setup.fish
+source;share/marine_environment_msgs/local_setup.sh
+source;share/marine_environment_msgs/local_setup.zsh

@@ -1,0 +1,124 @@
+// generated from rosidl_generator_py/resource/_idl_support.c.em
+// with input from marine_environment_msgs:msg/Turbidity.idl
+// generated code does not contain a copyright notice
+#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
+#include <Python.h>
+#include <stdbool.h>
+#ifndef _WIN32
+# pragma GCC diagnostic push
+# pragma GCC diagnostic ignored "-Wunused-function"
+#endif
+#include "numpy/ndarrayobject.h"
+#ifndef _WIN32
+# pragma GCC diagnostic pop
+#endif
+#include "rosidl_runtime_c/visibility_control.h"
+#include "marine_environment_msgs/msg/detail/turbidity__struct.h"
+#include "marine_environment_msgs/msg/detail/turbidity__functions.h"
+
+ROSIDL_GENERATOR_C_IMPORT
+bool std_msgs__msg__header__convert_from_py(PyObject * _pymsg, void * _ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+PyObject * std_msgs__msg__header__convert_to_py(void * raw_ros_message);
+
+ROSIDL_GENERATOR_C_EXPORT
+bool marine_environment_msgs__msg__turbidity__convert_from_py(PyObject * _pymsg, void * _ros_message)
+{
+  // check that the passed message is of the expected Python class
+  {
+    PyObject * class_attr = PyObject_GetAttrString(_pymsg, "__class__");
+    if (class_attr == NULL) {
+      return false;
+    }
+    PyObject * name_attr = PyObject_GetAttrString(class_attr, "__name__");
+    if (name_attr == NULL) {
+      Py_DECREF(class_attr);
+      return false;
+    }
+    PyObject * module_attr = PyObject_GetAttrString(class_attr, "__module__");
+    if (module_attr == NULL) {
+      Py_DECREF(name_attr);
+      Py_DECREF(class_attr);
+      return false;
+    }
+
+    // PyUnicode_1BYTE_DATA is just a cast
+    assert(strncmp("marine_environment_msgs.msg._turbidity", (char *)PyUnicode_1BYTE_DATA(module_attr), 38) == 0);
+    assert(strncmp("Turbidity", (char *)PyUnicode_1BYTE_DATA(name_attr), 9) == 0);
+
+    Py_DECREF(module_attr);
+    Py_DECREF(name_attr);
+    Py_DECREF(class_attr);
+  }
+  marine_environment_msgs__msg__Turbidity * ros_message = _ros_message;
+  {  // header
+    PyObject * field = PyObject_GetAttrString(_pymsg, "header");
+    if (!field) {
+      return false;
+    }
+    if (!std_msgs__msg__header__convert_from_py(field, &ros_message->header)) {
+      Py_DECREF(field);
+      return false;
+    }
+    Py_DECREF(field);
+  }
+  {  // ntu
+    PyObject * field = PyObject_GetAttrString(_pymsg, "ntu");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->ntu = (float)PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
+
+  return true;
+}
+
+ROSIDL_GENERATOR_C_EXPORT
+PyObject * marine_environment_msgs__msg__turbidity__convert_to_py(void * raw_ros_message)
+{
+  /* NOTE(esteve): Call constructor of Turbidity */
+  PyObject * _pymessage = NULL;
+  {
+    PyObject * pymessage_module = PyImport_ImportModule("marine_environment_msgs.msg._turbidity");
+    assert(pymessage_module);
+    PyObject * pymessage_class = PyObject_GetAttrString(pymessage_module, "Turbidity");
+    assert(pymessage_class);
+    Py_DECREF(pymessage_module);
+    _pymessage = PyObject_CallObject(pymessage_class, NULL);
+    Py_DECREF(pymessage_class);
+    if (!_pymessage) {
+      return NULL;
+    }
+  }
+  marine_environment_msgs__msg__Turbidity * ros_message = (marine_environment_msgs__msg__Turbidity *)raw_ros_message;
+  {  // header
+    PyObject * field = NULL;
+    field = std_msgs__msg__header__convert_to_py(&ros_message->header);
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "header", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // ntu
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->ntu);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "ntu", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+
+  // ownership of _pymessage is transferred to the caller
+  return _pymessage;
+}

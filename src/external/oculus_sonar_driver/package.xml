@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>oculus_sonar_driver</name>
+  <version>3.0.0</version>
+  <description>ROS2 driver for Oculus sonar devices using liboculus.</description>
+  <maintainer email="amarburg@uw.edu">A. Marburg</maintainer>
+  <maintainer email="chrimai@energy.aau.dk">Christian Mai</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>rclcpp_components</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>marine_acoustic_msgs</depend>
+  <depend>liboculus</depend>
+  <depend>generate_parameter_library</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,21 @@
+[package]
+name = "marine_acoustic_msgs"
+version = "2.1.0"
+edition = "2021"
+
+[dependencies]
+# 0.7: matches the rosidl_buffer primitive sequence layout from Lyrical on (ros2-rust/ros2_rust#659)
+rosidl_runtime_rs = "0.7"
+serde = { version = "1", optional = true, features = ["derive"] }
+serde-big-array = { version = "0.5.1", optional = true }
+
+# ROS Dependencies
+builtin_interfaces = "*"
+geometry_msgs = "*"
+std_msgs = "*"
+
+[features]
+serde = ['dep:serde', 'dep:serde-big-array', 'rosidl_runtime_rs/serde', 'builtin_interfaces/serde', 'geometry_msgs/serde', 'std_msgs/serde']
+
+[package.metadata.ros-env]
+include = true

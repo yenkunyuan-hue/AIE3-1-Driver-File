@@ -1,0 +1,45 @@
+stages:
+  - lint
+  - build
+
+sast:
+  stage: lint
+include:
+  - template: Security/SAST.gitlab-ci.yml
+
+pre-commit:
+  stage: lint
+
+  image: docker:latest
+  services:
+  - docker:dind
+  script:
+    - apk add pre-commit
+    - pre-commit run --all-files
+  except:
+    - tags
+
+industrial_ci:
+  stage: build
+  image: docker:git
+  parallel:
+    matrix:
+      - ROS_DISTRO:
+          - jazzy
+          - kilted
+          - lyrical
+          - rolling
+  services:
+    - docker:dind
+  before_script:
+    - apk add --update bash coreutils tar
+    - git clone --quiet --depth 1 https://github.com/ros-industrial/industrial_ci .industrial_ci -b master
+  script: .industrial_ci/gitlab.sh
+  variables:
+    ROS_DISTRO:  $ROS_DISTRO
+
+    # Preferentially use an image with ROS pre-installed rather than a
+    # bare Ubuntu image
+    DOCKER_IMAGE:  ros:$ROS_DISTRO
+
+    UPSTREAM_WORKSPACE: oculus_sonar_driver.repos

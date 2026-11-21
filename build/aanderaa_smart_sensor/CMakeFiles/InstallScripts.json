@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/yangkunyuan/rig_ws/build/aanderaa_smart_sensor/cmake_install.cmake",
+		"/Users/yangkunyuan/rig_ws/build/aanderaa_smart_sensor/aanderaa_smart_sensor__py/cmake_install.cmake",
+		"/Users/yangkunyuan/rig_ws/build/aanderaa_smart_sensor/aanderaa_smart_sensor__rs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

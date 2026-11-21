@@ -1,0 +1,25 @@
+<launch>
+  <arg name="range" default="2.0"/>
+  <arg name="gain_percent" default="100.0"/>
+  <arg name="gamma" default="127"/>
+  <arg name="ping_rate" default="0"/>
+  <arg name="freq_mode" default="2"/>
+  <arg name="ip_address" default="auto"/>
+  <arg name="send_gain" default="true"/>
+  <arg name="data_size" default="1" description="Data size in BYTES.  Valid values (1,2,4)"/>
+  <arg name="frame_id" default="oculus"/>
+
+  <node pkg="oculus_sonar_driver" exec="oculus_sonar_driver" name="oculus_driver" output="screen">
+    <param from="$(find-pkg-share oculus_sonar_driver)/config/oculus_params.yaml" />
+
+    <param name="range" value="$(var range)"/>
+    <param name="gain" value="$(var gain_percent)"/>
+    <param name="gamma" value="$(var gamma)"/>
+    <param name="ping_rate" value="$(var ping_rate)"/>
+    <param name="freq_mode" value="$(var freq_mode)"/>
+    <param name="ip_address" value="$(var ip_address)"/>
+    <param name="send_gain" value="$(var send_gain)"/>
+    <param name="data_size" value="$(var data_size)"/>
+    <param name="frame_id" value="$(var frame_id)"/>
+  </node>
+</launch>

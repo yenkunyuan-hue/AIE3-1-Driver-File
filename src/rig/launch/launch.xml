@@ -1,0 +1,25 @@
+<launch>
+  <set_env name="OPENBLAS_CORETYPE" value="ARMV8"/>
+  <!-- declare CPU ARM64 for jetson -->
+  <set_env name="OPENCV_FFMPEG_CAPTURE_OPTIONS" value="rtsp_transport;tcp"/>
+  <!-- transmission protocol for camera -->
+
+  <!-- 1. sonar  -->
+  <node pkg="oculus_sonar_driver" exec="oculus_sonar_driver" name="oculus_driver" output="screen">
+    <param from="$(find-pkg-share rig)/config/oculus_params.yaml"/>
+  </node>
+  <!-- sonar to point cloud  -->
+  <node pkg="rig" exec="sonar_cloud" name="sonar_cloud" output="screen">
+    <param from="$(find-pkg-share rig)/config/point_cloud_params.yaml"/>
+  </node>
+
+  <!-- 2. camera -->
+  <node pkg="blueros2_oceantool_camera" exec="camera_node" name="camera_node" output="screen">
+    <param from="$(find-pkg-share rig)/config/camera_params.yaml"/>
+  </node>
+
+  <!-- 3. Arduino -->
+  <node pkg="rig" exec="arduino" name="arduino" output="screen">
+    <param from="$(find-pkg-share rig)/config/arduino_params.yaml"/>
+  </node>
+</launch>

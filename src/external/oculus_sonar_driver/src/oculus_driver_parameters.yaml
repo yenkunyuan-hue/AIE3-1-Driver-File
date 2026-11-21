@@ -1,0 +1,93 @@
+oculus_sonar_driver:
+  send_range_as_meters:
+    type: bool
+    default_value: true
+    description: ""
+
+  send_gain:
+    type: bool
+    default_value: true
+    description: ""
+
+  send_simple_return:
+    type: bool
+    default_value: true
+    description: ""
+
+  gain_assistance:
+    type: bool
+    default_value: true
+    description: ""
+
+  num_beams:
+    type: int
+    default_value: 1
+    description: ""
+    validation:
+      bounds<>: [0,1]
+
+  range:
+    type: double
+    default_value: 2.0
+    description: ""
+    validation:
+      bounds<>: [0.0,40.0]
+
+  gain:
+    type: double
+    default_value: 1.0
+    description: ""
+    validation:
+      bounds<>: [1.0,100.0]
+
+  gamma:
+    type: int
+    default_value: 127
+    description: ""
+    validation:
+      bounds<>: [0,255]
+
+  salinity_ppt:
+    type: double
+    default_value: -1.0
+    description: "Salinity in parts per thousand.  If >= 0, this overrides speed_of_sound_ms."
+    validation:
+      bounds<>: [-1.0, 50.0]
+
+  speed_of_sound_ms:
+    type: double
+    default_value: 1500.0
+    description: "Speed of sound in m/s.  If salinity_ppt >= 0, this is ignored."
+    validation:
+      bounds<>: [1000.0,2000.0]
+
+  ping_rate:
+    type: int
+    default_value: 0
+    description: "ping_rate: 0=Normal, 1=High, 2=Highest, 3=Low, 4=Lowest, 5=Standby"
+    validation:
+      bounds<>: [0,5]
+
+  data_size:
+    type: int
+    default_value: 1
+    description: "1=8bit, 2=16bit, 4=32bit"
+    validation:
+      one_of<>: [[1,2,4]]
+
+  freq_mode:
+    type: int
+    default_value: 2
+    description: "req_mode: 1=LowFrequency, 2=HighFrequency"
+    validation:
+      bounds<>: [1,2]
+
+  ip_address:
+    type: string
+    default_value: ""
+    description: ""
+
+  frame_id:
+    type: string
+    default_value: "sonar"
+    description: ""

@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+resource/rig
+rig/__init__.py
+rig/py.typed
+rig.egg-info/PKG-INFO
+rig.egg-info/SOURCES.txt
+rig.egg-info/dependency_links.txt
+rig.egg-info/requires.txt
+rig.egg-info/top_level.txt
+rig.egg-info/zip-safe

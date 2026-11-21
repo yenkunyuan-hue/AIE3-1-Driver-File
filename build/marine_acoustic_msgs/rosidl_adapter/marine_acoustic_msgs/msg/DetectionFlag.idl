@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from marine_acoustic_msgs/msg/DetectionFlag.msg
+// generated code does not contain a copyright notice
+
+
+module marine_acoustic_msgs {
+  module msg {
+    module DetectionFlag_Constants {
+      const uint8 DETECT_OK = 0;
+      @verbatim (language="comment", text=
+        "Beam is flagged as bad by the sonar.  Think hard before second-guessing")
+      const uint8 DETECT_BAD_SONAR = 1;
+      @verbatim (language="comment", text=
+        "Beam is flagged as bad by some automated filter applied during processing.")
+      const uint8 DETECT_BAD_FILTER = 2;
+      @verbatim (language="comment", text=
+        "Beam is flagged as bad by the user. This is probably not happening in" "\n"        "realtime, but is included here so the same message can be used throughout" "\n"        "a post-processing pipeline.")
+      const uint8 DETECT_BAD_USER = 4;
+    };
+    @verbatim (language="comment", text=
+      "Beam is OK")
+    struct DetectionFlag {
+      @verbatim (language="comment", text=
+        "These arrays should have the same dimensions, and should match" "\n"
+        "the number of beams for this sonar." "\n"
+        "" "\n"
+        "Some fields are optional.  Those should have 0 length." "\n"
+        "Flag values for every beam")
+      uint8 flag;
+    };
+  };
+};

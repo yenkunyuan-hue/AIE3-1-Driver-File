@@ -1,0 +1,13 @@
+setup.py
+marine_environment_msgs/__init__.py
+marine_environment_msgs/py.typed
+marine_environment_msgs.egg-info/PKG-INFO
+marine_environment_msgs.egg-info/SOURCES.txt
+marine_environment_msgs.egg-info/dependency_links.txt
+marine_environment_msgs.egg-info/top_level.txt
+marine_environment_msgs/msg/__init__.py
+marine_environment_msgs/msg/_conductivity.py
+marine_environment_msgs/msg/_density.py
+marine_environment_msgs/msg/_sound_speed.py
+marine_environment_msgs/msg/_spectral_reading.py
+marine_environment_msgs/msg/_turbidity.py

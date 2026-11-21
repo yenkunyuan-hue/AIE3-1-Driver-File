@@ -1,0 +1,28 @@
+<launch>
+  <!-- Argument for global frame -->
+  <arg name="map_frame" default="map" />
+
+  <node
+    pkg="sonar_image_proc"
+    exec="sonar_pointcloud"
+    name="sonar_pointcloud"
+    output="screen">
+    <param name="input_topic" value="oculus/sonar_image"/>
+    <param name="output_topic" value="oculus/sonar_cloud"/>
+    <param name="frame_id" value="sonar_frame"/>
+    <param name="publish_all_points" value="false"/>
+    <param name="use_intensity" value="true"/>
+    <param name="cmin" value="0.74"/>
+    <param name="threshold" value="0.90"/>
+    <param name="elev_steps" value="20"/>
+    <param name="min_elev_deg" value="-10.0"/>
+    <param name="max_elev_deg" value="10.0"/>
+    <param name="message_type" value="acoustic_msgs"/> <!-- fix for old packages -->
+  </node>
+    <!-- Static transform: parent -> child -->
+   <node
+    pkg="tf2_ros"
+    exec="static_transform_publisher"
+    name="map_to_sonar_frame"
+    args="0.1 -0.1 0 0 1.57 0 $(var map_frame) sonar_frame" /> 
+</launch>

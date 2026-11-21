@@ -1,0 +1,54 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"multiConfig" : false,
+			"name" : "Unix Makefiles"
+		},
+		"paths" : 
+		{
+			"cmake" : "/Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/cmake",
+			"cpack" : "/Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/cpack",
+			"ctest" : "/Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/ctest",
+			"root" : "/Users/yangkunyuan/ros_ws/.pixi/envs/default/share/cmake-4.5"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 4,
+			"minor" : 5,
+			"patch" : 1,
+			"string" : "4.5.1",
+			"suffix" : ""
+		}
+	},
+	"objects" : 
+	[
+		{
+			"jsonFile" : "codemodel-v2-509a0c73d29806122bca.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 12
+			}
+		}
+	],
+	"reply" : 
+	{
+		"client-colcon-cmake" : 
+		{
+			"codemodel-v2" : 
+			{
+				"jsonFile" : "codemodel-v2-509a0c73d29806122bca.json",
+				"kind" : "codemodel",
+				"version" : 
+				{
+					"major" : 2,
+					"minor" : 12
+				}
+			}
+		}
+	}
+}

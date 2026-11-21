@@ -1,0 +1,92 @@
+# AS7341 general light detection correction matrix excerpt.
+#
+# Source: ams OSRAM AS7341 Eval Kit Manual UG000400, Figure 17.
+# The manual identifies CM_L1_v1_0_0.csv as the general calibration matrix for
+# light detection and shows only example rows in the public PDF. The complete
+# CSV appears to be part of the AS7341 Evaluation Kit software package, not fully
+# printed in the public manual.
+#
+# This YAML contains only the rows explicitly printed in the public manual:
+# 380 nm, 381 nm, 382 nm, 999 nm, and 1000 nm.
+# It is included so the ROS 2 calibration path uses the same YAML format and the
+# documented coefficients can be tested. It is not a complete spectral
+# reconstruction matrix.
+unit: reconstructed_relative_spectrum_excerpt
+source_name: CM_L1_v1_0_0 documented excerpt
+input_channels: [F1_415, F2_445, F3_480, F4_515, F5_555, F6_590, F7_630, F8_680, CLEAR, NIR]
+rows:
+  - channel_name: S380
+    wavelength_nm: 380.0
+    fwhm_nm: 1.0
+    bias: 0.0
+    coefficients:
+      F1_415: 0.19414
+      F2_445: -0.03387
+      F3_480: 0.009500
+      F4_515: -0.00185
+      F5_555: 0.001581
+      F6_590: -0.00036
+      F7_630: 0.000774
+      F8_680: -0.00028
+      CLEAR: -0.00695
+      NIR: -0.00025
+  - channel_name: S381
+    wavelength_nm: 381.0
+    fwhm_nm: 1.0
+    bias: 0.0
+    coefficients:
+      F1_415: 0.19611
+      F2_445: -0.03421
+      F3_480: 0.009596
+      F4_515: -0.00187
+      F5_555: 0.001597
+      F6_590: -0.00037
+      F7_630: 0.000782
+      F8_680: -0.00028
+      CLEAR: -0.00702
+      NIR: -0.00025
+  - channel_name: S382
+    wavelength_nm: 382.0
+    fwhm_nm: 1.0
+    bias: 0.0
+    coefficients:
+      F1_415: 0.19809
+      F2_445: -0.03456
+      F3_480: 0.009693
+      F4_515: -0.00189
+      F5_555: 0.001613
+      F6_590: -0.00037
+      F7_630: 0.000790
+      F8_680: -0.00029
+      CLEAR: -0.00710
+      NIR: -0.00025
+  - channel_name: S999
+    wavelength_nm: 999.0
+    fwhm_nm: 1.0
+    bias: 0.0
+    coefficients:
+      F1_415: 0.022006
+      F2_445: -0.00812
+      F3_480: 0.008504
+      F4_515: 0.003958
+      F5_555: 0.000851
+      F6_590: 0.005155
+      F7_630: 0.001194
+      F8_680: 0.006027
+      CLEAR: -0.00953
+      NIR: 0.009512
+  - channel_name: S1000
+    wavelength_nm: 1000.0
+    fwhm_nm: 1.0
+    bias: 0.0
+    coefficients:
+      F1_415: 0.022066
+      F2_445: -0.00821
+      F3_480: 0.008532
+      F4_515: 0.003926
+      F5_555: 0.000856
+      F6_590: 0.005130
+      F7_630: 0.001198
+      F8_680: 0.006007
+      CLEAR: -0.00950
+      NIR: 0.009459

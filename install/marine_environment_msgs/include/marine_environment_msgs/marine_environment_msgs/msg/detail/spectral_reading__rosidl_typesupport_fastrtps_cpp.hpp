@@ -1,0 +1,1 @@
+/Users/yangkunyuan/rig_ws/build/marine_environment_msgs/rosidl_typesupport_fastrtps_cpp/marine_environment_msgs/msg/detail/spectral_reading__rosidl_typesupport_fastrtps_cpp.hpp

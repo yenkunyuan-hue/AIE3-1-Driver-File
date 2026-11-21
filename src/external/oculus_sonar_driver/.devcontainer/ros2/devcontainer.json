@@ -1,0 +1,29 @@
+{
+  "name": "ROS2 Dev Container",
+  "dockerFile": "Dockerfile",
+  "context": "../..",
+  "workspaceMount": "source=${localWorkspaceFolder}/..,target=/home/ubuntu/oakd_ws/src,type=bind",
+  "workspaceFolder": "/home/ubuntu/oakd_ws/src/oculus_sonar_driver",
+  "remoteUser": "ubuntu",
+  "runArgs": [
+    "--network=host"
+  ],
+  "containerEnv": {
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "ms-python.python",
+        "njpwerner.autodocstring",
+        "redhat.vscode-xml",
+        "redhat.vscode-yaml",
+        "smilerobotics.urdf",
+        "esbenp.prettier-vscode",
+        "charliermarsh.ruff",
+        "josetr.cmake-language-support-vscode",
+        "unifiedjs.vscode-mdx"
+      ]
+    }
+  }
+}

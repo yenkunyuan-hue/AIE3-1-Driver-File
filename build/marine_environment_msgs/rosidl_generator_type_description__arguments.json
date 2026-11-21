@@ -1,0 +1,15 @@
+{
+  "package_name": "marine_environment_msgs",
+  "output_dir": "/Users/yangkunyuan/rig_ws/build/marine_environment_msgs/rosidl_generator_type_description/marine_environment_msgs",
+  "idl_tuples": [
+    "/Users/yangkunyuan/rig_ws/build/marine_environment_msgs/rosidl_adapter/marine_environment_msgs:msg/Conductivity.idl",
+    "/Users/yangkunyuan/rig_ws/build/marine_environment_msgs/rosidl_adapter/marine_environment_msgs:msg/Density.idl",
+    "/Users/yangkunyuan/rig_ws/build/marine_environment_msgs/rosidl_adapter/marine_environment_msgs:msg/SoundSpeed.idl",
+    "/Users/yangkunyuan/rig_ws/build/marine_environment_msgs/rosidl_adapter/marine_environment_msgs:msg/SpectralReading.idl",
+    "/Users/yangkunyuan/rig_ws/build/marine_environment_msgs/rosidl_adapter/marine_environment_msgs:msg/Turbidity.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/Users/yangkunyuan/ros_ws/.pixi/envs/default/share/std_msgs/",
+    "builtin_interfaces:/Users/yangkunyuan/ros_ws/.pixi/envs/default/share/builtin_interfaces/"
+  ]
+}

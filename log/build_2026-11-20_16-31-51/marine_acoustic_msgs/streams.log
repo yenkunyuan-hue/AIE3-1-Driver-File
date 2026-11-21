@@ -1,0 +1,427 @@
+[0.029s] Invoking command in '/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs': CMAKE_PREFIX_PATH=/Users/yangkunyuan/ros_ws/.pixi/envs/default CONDA_ENV_SHLVL_2_PIXI_PROMPT=(ros_ws) PIXI_PROMPT=(ros_ws) SHLVL=5 _=/usr/bin/env /Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/cmake /Users/yangkunyuan/rig_ws/src/external/marine_msgs/marine_acoustic_msgs -DCMAKE_OSX_ARCHITECTURES=arm64 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs
+[0.163s] CMake Warning (deprecated) at CMakeLists.txt:1 (cmake_minimum_required):
+[0.163s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.163s]   CMake.
+[0.163s] 
+[0.163s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.163s]   to tell CMake that the project requires at least <min> but has been updated
+[0.163s]   to work with policies introduced by <max> or earlier.
+[0.163s] This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+[0.163s] to suppress it.
+[0.163s] 
+[0.885s] -- The C compiler identification is Clang 21.1.8
+[1.473s] -- The CXX compiler identification is Clang 21.1.8
+[1.523s] -- Detecting C compiler ABI info
+[1.909s] -- Detecting C compiler ABI info - done
+[1.948s] -- Check for working C compiler: /Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/cc - skipped
+[1.949s] -- Detecting C compile features
+[1.950s] -- Detecting C compile features - done
+[1.964s] -- Detecting CXX compiler ABI info
+[2.482s] -- Detecting CXX compiler ABI info - done
+[2.516s] -- Check for working CXX compiler: /Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/c++ - skipped
+[2.516s] -- Detecting CXX compile features
+[2.517s] -- Detecting CXX compile features - done
+[2.560s] -- Found ament_cmake: 2.8.8 (/Users/yangkunyuan/ros_ws/.pixi/envs/default/share/ament_cmake/cmake)
+[2.936s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.283s] -- Found geometry_msgs: 5.9.3 (/Users/yangkunyuan/ros_ws/.pixi/envs/default/share/geometry_msgs/cmake)
+[3.547s] -- Found rosidl_generator_c: 5.2.1 (/Users/yangkunyuan/ros_ws/.pixi/envs/default/share/rosidl_generator_c/cmake)
+[3.607s] -- Found rosidl_generator_cpp: 5.2.1 (/Users/yangkunyuan/ros_ws/.pixi/envs/default/share/rosidl_generator_cpp/cmake)
+[3.710s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.813s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.964s] -- Found rosidl_default_generators: 1.8.1 (/Users/yangkunyuan/ros_ws/.pixi/envs/default/share/rosidl_default_generators/cmake)
+[4.065s] -- Found rosidl_adapter: 5.2.1 (/Users/yangkunyuan/ros_ws/.pixi/envs/default/share/rosidl_adapter/cmake)
+[4.384s] -- Found Python3: /Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/python3 (found version "3.14.10") found components: Interpreter
+[6.953s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.357s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.910s] -- Found Python3: /Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/python3 (found version "3.14.10") found components: Interpreter Development NumPy Development.Module Development.Embed
+[8.018s] -- Found Python3: /Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/python3 (found version "3.14.10") found components: Interpreter
+[8.053s] -- Configuring done (7.9s)
+[8.288s] -- Generating done (0.2s)
+[8.374s] -- Build files have been written to: /Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs
+[8.401s] Invoked command in '/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs' returned '0': CMAKE_PREFIX_PATH=/Users/yangkunyuan/ros_ws/.pixi/envs/default CONDA_ENV_SHLVL_2_PIXI_PROMPT=(ros_ws) PIXI_PROMPT=(ros_ws) SHLVL=5 _=/usr/bin/env /Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/cmake /Users/yangkunyuan/rig_ws/src/external/marine_msgs/marine_acoustic_msgs -DCMAKE_OSX_ARCHITECTURES=arm64 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs
+[8.404s] Invoking command in '/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs': CMAKE_PREFIX_PATH=/Users/yangkunyuan/ros_ws/.pixi/envs/default CONDA_ENV_SHLVL_2_PIXI_PROMPT=(ros_ws) PIXI_PROMPT=(ros_ws) SHLVL=5 _=/usr/bin/env /Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/cmake --build /Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs -- -j8 -l8
+[8.714s] [  1%] Generating type hashes for ROS interfaces
+[8.715s] [  2%] Generating Rust code for ROS interfaces
+[10.519s] [  2%] Built target marine_acoustic_msgs__rosidl_generator_type_description
+[10.595s] [  3%] Generating C code for ROS interfaces
+[10.648s] [  3%] Generating C++ code for ROS interfaces
+[10.959s] [  3%] Built target marine_acoustic_msgs__rs
+[16.332s] [  3%] Built target marine_acoustic_msgs__cpp
+[17.568s] [  4%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_c.dir/rosidl_generator_c/marine_acoustic_msgs/msg/detail/detection_flag__description.c.o
+[17.941s] [  5%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_c.dir/rosidl_generator_c/marine_acoustic_msgs/msg/detail/ping_info__functions.c.o
+[18.155s] [  6%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_c.dir/rosidl_generator_c/marine_acoustic_msgs/msg/detail/ping_info__type_support.c.o
+[18.345s] [  7%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_c.dir/rosidl_generator_c/marine_acoustic_msgs/msg/detail/projected_sonar_image__description.c.o
+[18.563s] [  8%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_c.dir/rosidl_generator_c/marine_acoustic_msgs/msg/detail/projected_sonar_image__functions.c.o
+[18.781s] [  9%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_c.dir/rosidl_generator_c/marine_acoustic_msgs/msg/detail/projected_sonar_image__type_support.c.o
+[18.995s] [ 10%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_c.dir/rosidl_generator_c/marine_acoustic_msgs/msg/detail/raw_sonar_image__description.c.o
+[19.202s] [ 11%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_c.dir/rosidl_generator_c/marine_acoustic_msgs/msg/detail/raw_sonar_image__functions.c.o
+[19.454s] [ 12%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_c.dir/rosidl_generator_c/marine_acoustic_msgs/msg/detail/raw_sonar_image__type_support.c.o
+[19.662s] [ 13%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_c.dir/rosidl_generator_c/marine_acoustic_msgs/msg/detail/sonar_detections__description.c.o
+[19.871s] [ 14%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_c.dir/rosidl_generator_c/marine_acoustic_msgs/msg/detail/sonar_detections__functions.c.o
+[20.101s] [ 15%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_c.dir/rosidl_generator_c/marine_acoustic_msgs/msg/detail/sonar_detections__type_support.c.o
+[20.316s] [ 15%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_c.dir/rosidl_generator_c/marine_acoustic_msgs/msg/detail/sonar_image_data__description.c.o
+[20.534s] [ 16%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_c.dir/rosidl_generator_c/marine_acoustic_msgs/msg/detail/sonar_image_data__functions.c.o
+[20.744s] [ 17%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_c.dir/rosidl_generator_c/marine_acoustic_msgs/msg/detail/sonar_image_data__type_support.c.o
+[20.966s] [ 18%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_c.dir/rosidl_generator_c/marine_acoustic_msgs/msg/detail/sonar_ranges__description.c.o
+[21.225s] [ 19%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_c.dir/rosidl_generator_c/marine_acoustic_msgs/msg/detail/sonar_ranges__functions.c.o
+[21.469s] [ 20%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_c.dir/rosidl_generator_c/marine_acoustic_msgs/msg/detail/sonar_ranges__type_support.c.o
+[21.696s] [ 21%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_c.dir/rosidl_generator_c/marine_acoustic_msgs/msg/detail/ping_info__description.c.o
+[21.930s] [ 22%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_c.dir/rosidl_generator_c/marine_acoustic_msgs/msg/detail/dvl__type_support.c.o
+[22.174s] [ 23%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_c.dir/rosidl_generator_c/marine_acoustic_msgs/msg/detail/dvl__functions.c.o
+[22.434s] [ 24%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_c.dir/rosidl_generator_c/marine_acoustic_msgs/msg/detail/dvl__description.c.o
+[22.659s] [ 25%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_c.dir/rosidl_generator_c/marine_acoustic_msgs/msg/detail/detection_flag__type_support.c.o
+[22.878s] [ 26%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_c.dir/rosidl_generator_c/marine_acoustic_msgs/msg/detail/detection_flag__functions.c.o
+[23.093s] [ 27%] Linking C shared library libmarine_acoustic_msgs__rosidl_generator_c.dylib
+[23.368s] [ 27%] Built target marine_acoustic_msgs__rosidl_generator_c
+[23.424s] [ 28%] Generating C type support for eProsima Fast-RTPS
+[25.952s] [ 29%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/marine_acoustic_msgs/msg/detail/detection_flag__type_support_c.cpp.o
+[28.149s] [ 30%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/marine_acoustic_msgs/msg/detail/projected_sonar_image__type_support_c.cpp.o
+[30.013s] [ 30%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/marine_acoustic_msgs/msg/detail/raw_sonar_image__type_support_c.cpp.o
+[32.533s] [ 31%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/marine_acoustic_msgs/msg/detail/sonar_detections__type_support_c.cpp.o
+[34.612s] [ 32%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/marine_acoustic_msgs/msg/detail/sonar_image_data__type_support_c.cpp.o
+[36.402s] [ 33%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/marine_acoustic_msgs/msg/detail/sonar_ranges__type_support_c.cpp.o
+[38.185s] [ 34%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/marine_acoustic_msgs/msg/detail/ping_info__type_support_c.cpp.o
+[39.525s] [ 35%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/marine_acoustic_msgs/msg/detail/dvl__type_support_c.cpp.o
+[41.454s] [ 36%] Linking CXX shared library libmarine_acoustic_msgs__rosidl_typesupport_fastrtps_c.dylib
+[41.682s] [ 36%] Built target marine_acoustic_msgs__rosidl_typesupport_fastrtps_c
+[41.721s] [ 37%] Generating C++ type support dispatch for ROS interfaces
+[42.923s] [ 38%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marine_acoustic_msgs/msg/detection_flag__type_support.cpp.o
+[43.865s] [ 39%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marine_acoustic_msgs/msg/projected_sonar_image__type_support.cpp.o
+[44.640s] [ 40%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marine_acoustic_msgs/msg/raw_sonar_image__type_support.cpp.o
+[45.475s] [ 41%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marine_acoustic_msgs/msg/sonar_detections__type_support.cpp.o
+[46.206s] [ 42%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marine_acoustic_msgs/msg/sonar_image_data__type_support.cpp.o
+[46.922s] [ 43%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marine_acoustic_msgs/msg/sonar_ranges__type_support.cpp.o
+[47.628s] [ 44%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marine_acoustic_msgs/msg/ping_info__type_support.cpp.o
+[48.328s] [ 45%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marine_acoustic_msgs/msg/dvl__type_support.cpp.o
+[49.039s] [ 46%] Linking CXX shared library libmarine_acoustic_msgs__rosidl_typesupport_cpp.dylib
+[49.196s] [ 46%] Built target marine_acoustic_msgs__rosidl_typesupport_cpp
+[49.227s] [ 47%] Generating C++ type support for eProsima Fast-RTPS
+[50.521s] [ 48%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/marine_acoustic_msgs/msg/detail/dds_fastrtps/detection_flag__type_support.cpp.o
+[51.387s] [ 49%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/marine_acoustic_msgs/msg/detail/dds_fastrtps/raw_sonar_image__type_support.cpp.o
+[52.284s] [ 50%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/marine_acoustic_msgs/msg/detail/dds_fastrtps/sonar_detections__type_support.cpp.o
+[53.193s] [ 51%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/marine_acoustic_msgs/msg/detail/dds_fastrtps/sonar_image_data__type_support.cpp.o
+[54.246s] [ 52%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/marine_acoustic_msgs/msg/detail/dds_fastrtps/sonar_ranges__type_support.cpp.o
+[55.183s] [ 53%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/marine_acoustic_msgs/msg/detail/dds_fastrtps/projected_sonar_image__type_support.cpp.o
+[56.080s] [ 54%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/marine_acoustic_msgs/msg/detail/dds_fastrtps/ping_info__type_support.cpp.o
+[57.005s] [ 55%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/marine_acoustic_msgs/msg/detail/dds_fastrtps/dvl__type_support.cpp.o
+[57.877s] [ 56%] Linking CXX shared library libmarine_acoustic_msgs__rosidl_typesupport_fastrtps_cpp.dylib
+[58.032s] [ 56%] Built target marine_acoustic_msgs__rosidl_typesupport_fastrtps_cpp
+[58.062s] [ 57%] Generating C++ introspection for ROS interfaces
+[59.196s] [ 58%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/marine_acoustic_msgs/msg/detail/detection_flag__type_support.cpp.o
+[59.977s] [ 59%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/marine_acoustic_msgs/msg/detail/sonar_detections__type_support.cpp.o
+[60.843s] [ 60%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/marine_acoustic_msgs/msg/detail/sonar_image_data__type_support.cpp.o
+[61.686s] [ 61%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/marine_acoustic_msgs/msg/detail/sonar_ranges__type_support.cpp.o
+[62.519s] [ 62%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/marine_acoustic_msgs/msg/detail/raw_sonar_image__type_support.cpp.o
+[63.317s] [ 63%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/marine_acoustic_msgs/msg/detail/projected_sonar_image__type_support.cpp.o
+[64.185s] [ 64%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/marine_acoustic_msgs/msg/detail/ping_info__type_support.cpp.o
+[64.935s] [ 65%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/marine_acoustic_msgs/msg/detail/dvl__type_support.cpp.o
+[65.670s] [ 66%] Linking CXX shared library libmarine_acoustic_msgs__rosidl_typesupport_introspection_cpp.dylib
+[65.829s] [ 66%] Built target marine_acoustic_msgs__rosidl_typesupport_introspection_cpp
+[65.858s] [ 67%] Generating C type support dispatch for ROS interfaces
+[66.737s] [ 68%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/marine_acoustic_msgs/msg/detection_flag__type_support.cpp.o
+[66.851s] [ 69%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/marine_acoustic_msgs/msg/sonar_image_data__type_support.cpp.o
+[66.963s] [ 70%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/marine_acoustic_msgs/msg/sonar_ranges__type_support.cpp.o
+[67.078s] [ 71%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/marine_acoustic_msgs/msg/sonar_detections__type_support.cpp.o
+[67.191s] [ 72%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/marine_acoustic_msgs/msg/raw_sonar_image__type_support.cpp.o
+[67.304s] [ 72%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/marine_acoustic_msgs/msg/projected_sonar_image__type_support.cpp.o
+[67.417s] [ 73%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/marine_acoustic_msgs/msg/ping_info__type_support.cpp.o
+[67.529s] [ 74%] Building CXX object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/marine_acoustic_msgs/msg/dvl__type_support.cpp.o
+[67.645s] [ 75%] Linking CXX shared library libmarine_acoustic_msgs__rosidl_typesupport_c.dylib
+[67.789s] [ 75%] Built target marine_acoustic_msgs__rosidl_typesupport_c
+[67.820s] [ 76%] Generating C introspection for ROS interfaces
+[68.952s] [ 77%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/marine_acoustic_msgs/msg/detail/detection_flag__type_support.c.o
+[69.057s] [ 78%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/marine_acoustic_msgs/msg/detail/sonar_ranges__type_support.c.o
+[69.176s] [ 79%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/marine_acoustic_msgs/msg/detail/sonar_image_data__type_support.c.o
+[69.285s] [ 79%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/marine_acoustic_msgs/msg/detail/sonar_detections__type_support.c.o
+[69.398s] [ 80%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/marine_acoustic_msgs/msg/detail/raw_sonar_image__type_support.c.o
+[69.510s] [ 81%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/marine_acoustic_msgs/msg/detail/projected_sonar_image__type_support.c.o
+[69.621s] [ 82%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/marine_acoustic_msgs/msg/detail/ping_info__type_support.c.o
+[69.729s] [ 83%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/marine_acoustic_msgs/msg/detail/dvl__type_support.c.o
+[69.847s] [ 84%] Linking C shared library libmarine_acoustic_msgs__rosidl_typesupport_introspection_c.dylib
+[69.993s] [ 84%] Built target marine_acoustic_msgs__rosidl_typesupport_introspection_c
+[70.050s] [ 84%] Built target marine_acoustic_msgs
+[70.111s] [ 85%] Generating Python code for ROS interfaces
+[72.461s] [ 85%] Built target marine_acoustic_msgs__py
+[72.519s] [ 86%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_py.dir/rosidl_generator_py/marine_acoustic_msgs/msg/_detection_flag_s.c.o
+[72.724s] [ 87%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_py.dir/rosidl_generator_py/marine_acoustic_msgs/msg/_sonar_image_data_s.c.o
+[72.899s] [ 88%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_py.dir/rosidl_generator_py/marine_acoustic_msgs/msg/_sonar_ranges_s.c.o
+[73.088s] [ 89%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_py.dir/rosidl_generator_py/marine_acoustic_msgs/msg/_sonar_detections_s.c.o
+[73.278s] [ 90%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_py.dir/rosidl_generator_py/marine_acoustic_msgs/msg/_raw_sonar_image_s.c.o
+[73.459s] [ 91%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_py.dir/rosidl_generator_py/marine_acoustic_msgs/msg/_projected_sonar_image_s.c.o
+[73.633s] [ 92%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_py.dir/rosidl_generator_py/marine_acoustic_msgs/msg/_ping_info_s.c.o
+[73.807s] [ 93%] Building C object CMakeFiles/marine_acoustic_msgs__rosidl_generator_py.dir/rosidl_generator_py/marine_acoustic_msgs/msg/_dvl_s.c.o
+[73.990s] [ 94%] Linking C shared library libmarine_acoustic_msgs__rosidl_generator_py.dylib
+[74.141s] [ 94%] Built target marine_acoustic_msgs__rosidl_generator_py
+[74.222s] [ 94%] Built target ament_cmake_python_sync_marine_acoustic_msgs
+[74.279s] [ 95%] Building C object CMakeFiles/marine_acoustic_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/marine_acoustic_msgs/_marine_acoustic_msgs_s.ep.rosidl_typesupport_c.c.o
+[74.449s] [ 96%] Linking C shared module rosidl_generator_py/marine_acoustic_msgs/marine_acoustic_msgs_s__rosidl_typesupport_c.so
+[74.595s] [ 96%] Built target marine_acoustic_msgs_s__rosidl_typesupport_c
+[74.873s] running egg_info
+[74.884s] creating marine_acoustic_msgs.egg-info
+[74.884s] writing marine_acoustic_msgs.egg-info/PKG-INFO
+[74.884s] writing dependency_links to marine_acoustic_msgs.egg-info/dependency_links.txt
+[74.885s] writing top-level names to marine_acoustic_msgs.egg-info/top_level.txt
+[74.885s] writing manifest file 'marine_acoustic_msgs.egg-info/SOURCES.txt'
+[74.916s] reading manifest file 'marine_acoustic_msgs.egg-info/SOURCES.txt'
+[74.916s] writing manifest file 'marine_acoustic_msgs.egg-info/SOURCES.txt'
+[74.960s] [ 96%] Built target ament_cmake_python_build_marine_acoustic_msgs_egg
+[75.019s] [ 97%] Building C object CMakeFiles/marine_acoustic_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/marine_acoustic_msgs/_marine_acoustic_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[75.189s] [ 98%] Linking C shared module rosidl_generator_py/marine_acoustic_msgs/marine_acoustic_msgs_s__rosidl_typesupport_introspection_c.so
+[75.334s] [ 98%] Built target marine_acoustic_msgs_s__rosidl_typesupport_introspection_c
+[75.392s] [ 99%] Building C object CMakeFiles/marine_acoustic_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/marine_acoustic_msgs/_marine_acoustic_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[75.560s] [100%] Linking C shared module rosidl_generator_py/marine_acoustic_msgs/marine_acoustic_msgs_s__rosidl_typesupport_fastrtps_c.so
+[75.702s] [100%] Built target marine_acoustic_msgs_s__rosidl_typesupport_fastrtps_c
+[75.734s] Invoked command in '/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs' returned '0': CMAKE_PREFIX_PATH=/Users/yangkunyuan/ros_ws/.pixi/envs/default CONDA_ENV_SHLVL_2_PIXI_PROMPT=(ros_ws) PIXI_PROMPT=(ros_ws) SHLVL=5 _=/usr/bin/env /Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/cmake --build /Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs -- -j8 -l8
+[75.736s] Invoking command in '/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs': CMAKE_PREFIX_PATH=/Users/yangkunyuan/ros_ws/.pixi/envs/default CONDA_ENV_SHLVL_2_PIXI_PROMPT=(ros_ws) PIXI_PROMPT=(ros_ws) SHLVL=5 _=/usr/bin/env /Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/cmake --install /Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs
+[75.760s] -- Install configuration: ""
+[75.761s] -- Execute custom install script
+[75.762s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/ament_index/resource_index/rosidl_interfaces/marine_acoustic_msgs
+[75.783s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/msg/DetectionFlag.json
+[75.803s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/msg/Dvl.json
+[75.823s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/msg/PingInfo.json
+[75.843s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/msg/ProjectedSonarImage.json
+[75.863s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/msg/RawSonarImage.json
+[75.884s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/msg/SonarDetections.json
+[75.904s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/msg/SonarImageData.json
+[75.924s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/msg/SonarRanges.json
+[75.945s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/detection_flag__functions.h
+[75.965s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/detection_flag__struct.h
+[75.984s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/detection_flag__type_support.h
+[76.004s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/dvl__functions.h
+[76.024s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/dvl__struct.h
+[76.044s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/dvl__type_support.h
+[76.064s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/ping_info__functions.h
+[76.084s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/ping_info__struct.h
+[76.104s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/ping_info__type_support.h
+[76.124s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/projected_sonar_image__functions.h
+[76.144s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/projected_sonar_image__struct.h
+[76.163s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/projected_sonar_image__type_support.h
+[76.183s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/raw_sonar_image__functions.h
+[76.202s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/raw_sonar_image__struct.h
+[76.228s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/raw_sonar_image__type_support.h
+[76.273s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_detections__functions.h
+[76.292s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_detections__struct.h
+[76.312s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_detections__type_support.h
+[76.332s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_image_data__functions.h
+[76.351s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_image_data__struct.h
+[76.371s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_image_data__type_support.h
+[76.391s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_ranges__functions.h
+[76.411s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_ranges__struct.h
+[76.430s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_ranges__type_support.h
+[76.454s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detection_flag.h
+[76.475s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/dvl.h
+[76.495s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/ping_info.h
+[76.515s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/projected_sonar_image.h
+[76.535s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/raw_sonar_image.h
+[76.555s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/rosidl_generator_c__visibility_control.h
+[76.575s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/sonar_detections.h
+[76.595s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/sonar_image_data.h
+[76.614s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/sonar_ranges.h
+[76.635s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/detection_flag__rosidl_typesupport_fastrtps_c.h
+[76.655s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/dvl__rosidl_typesupport_fastrtps_c.h
+[76.674s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/ping_info__rosidl_typesupport_fastrtps_c.h
+[76.694s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/projected_sonar_image__rosidl_typesupport_fastrtps_c.h
+[76.714s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/raw_sonar_image__rosidl_typesupport_fastrtps_c.h
+[76.734s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_detections__rosidl_typesupport_fastrtps_c.h
+[76.755s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_image_data__rosidl_typesupport_fastrtps_c.h
+[76.776s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_ranges__rosidl_typesupport_fastrtps_c.h
+[76.796s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[76.817s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/detection_flag__builder.hpp
+[76.837s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/detection_flag__struct.hpp
+[76.857s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/detection_flag__traits.hpp
+[76.876s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/detection_flag__type_support.hpp
+[76.896s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/dvl__builder.hpp
+[76.916s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/dvl__struct.hpp
+[76.936s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/dvl__traits.hpp
+[76.955s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/dvl__type_support.hpp
+[76.975s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/ping_info__builder.hpp
+[76.995s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/ping_info__struct.hpp
+[77.015s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/ping_info__traits.hpp
+[77.034s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/ping_info__type_support.hpp
+[77.054s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/projected_sonar_image__builder.hpp
+[77.073s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/projected_sonar_image__struct.hpp
+[77.093s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/projected_sonar_image__traits.hpp
+[77.113s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/projected_sonar_image__type_support.hpp
+[77.133s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/raw_sonar_image__builder.hpp
+[77.152s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/raw_sonar_image__struct.hpp
+[77.172s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/raw_sonar_image__traits.hpp
+[77.192s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/raw_sonar_image__type_support.hpp
+[77.212s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_detections__builder.hpp
+[77.232s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_detections__struct.hpp
+[77.251s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_detections__traits.hpp
+[77.271s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_detections__type_support.hpp
+[77.291s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_image_data__builder.hpp
+[77.310s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_image_data__struct.hpp
+[77.330s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_image_data__traits.hpp
+[77.350s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_image_data__type_support.hpp
+[77.370s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_ranges__builder.hpp
+[77.390s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_ranges__struct.hpp
+[77.409s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_ranges__traits.hpp
+[77.429s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_ranges__type_support.hpp
+[77.448s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detection_flag.hpp
+[77.468s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/dvl.hpp
+[77.487s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/ping_info.hpp
+[77.507s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/projected_sonar_image.hpp
+[77.527s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/raw_sonar_image.hpp
+[77.547s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[77.566s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/sonar_detections.hpp
+[77.586s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/sonar_image_data.hpp
+[77.605s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/sonar_ranges.hpp
+[77.626s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/detection_flag__rosidl_typesupport_fastrtps_cpp.hpp
+[77.645s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/dvl__rosidl_typesupport_fastrtps_cpp.hpp
+[77.665s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/ping_info__rosidl_typesupport_fastrtps_cpp.hpp
+[77.685s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/projected_sonar_image__rosidl_typesupport_fastrtps_cpp.hpp
+[77.705s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/raw_sonar_image__rosidl_typesupport_fastrtps_cpp.hpp
+[77.724s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_detections__rosidl_typesupport_fastrtps_cpp.hpp
+[77.744s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_image_data__rosidl_typesupport_fastrtps_cpp.hpp
+[77.764s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_ranges__rosidl_typesupport_fastrtps_cpp.hpp
+[77.783s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[77.803s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/detection_flag__rosidl_typesupport_introspection_c.h
+[77.823s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/dvl__rosidl_typesupport_introspection_c.h
+[77.843s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/ping_info__rosidl_typesupport_introspection_c.h
+[77.863s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/projected_sonar_image__rosidl_typesupport_introspection_c.h
+[77.883s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/raw_sonar_image__rosidl_typesupport_introspection_c.h
+[77.902s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_detections__rosidl_typesupport_introspection_c.h
+[77.922s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_image_data__rosidl_typesupport_introspection_c.h
+[77.942s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_ranges__rosidl_typesupport_introspection_c.h
+[77.962s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[77.982s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/detection_flag__rosidl_typesupport_introspection_cpp.hpp
+[78.001s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/dvl__rosidl_typesupport_introspection_cpp.hpp
+[78.021s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/ping_info__rosidl_typesupport_introspection_cpp.hpp
+[78.041s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/projected_sonar_image__rosidl_typesupport_introspection_cpp.hpp
+[78.061s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/raw_sonar_image__rosidl_typesupport_introspection_cpp.hpp
+[78.080s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_detections__rosidl_typesupport_introspection_cpp.hpp
+[78.101s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_image_data__rosidl_typesupport_introspection_cpp.hpp
+[78.121s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/include/marine_acoustic_msgs/marine_acoustic_msgs/msg/detail/sonar_ranges__rosidl_typesupport_introspection_cpp.hpp
+[78.141s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/environment/pythonpath.sh
+[78.161s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/environment/pythonpath.dsv
+[78.181s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/marine_acoustic_msgs_s__rosidl_typesupport_fastrtps_c.so
+[78.201s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/marine_acoustic_msgs_s__rosidl_typesupport_introspection_c.so
+[78.221s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/marine_acoustic_msgs_s__rosidl_typesupport_c.so
+[78.242s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/rust/Cargo.toml
+[78.261s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/rust/build.rs
+[78.281s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/rust/src/lib.rs
+[78.301s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/rust/src/msg.rs
+[78.321s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/rust/src/msg/rmw.rs
+[78.340s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/msg/DetectionFlag.idl
+[78.360s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/msg/Dvl.idl
+[78.380s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/msg/PingInfo.idl
+[78.400s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/msg/ProjectedSonarImage.idl
+[78.420s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/msg/RawSonarImage.idl
+[78.441s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/msg/SonarDetections.idl
+[78.463s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/msg/SonarImageData.idl
+[78.483s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/msg/SonarRanges.idl
+[78.503s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/msg/DetectionFlag.msg
+[78.523s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/msg/Dvl.msg
+[78.542s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/msg/PingInfo.msg
+[78.562s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/msg/ProjectedSonarImage.msg
+[78.582s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/msg/RawSonarImage.msg
+[78.602s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/msg/SonarDetections.msg
+[78.622s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/msg/SonarImageData.msg
+[78.643s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/msg/SonarRanges.msg
+[78.663s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/ament_index/resource_index/package_run_dependencies/marine_acoustic_msgs
+[78.683s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/ament_index/resource_index/parent_prefix_path/marine_acoustic_msgs
+[78.703s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/environment/ament_prefix_path.sh
+[78.724s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/environment/ament_prefix_path.dsv
+[78.745s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/environment/path.sh
+[78.765s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/environment/path.dsv
+[78.786s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/local_setup.bash
+[78.806s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/local_setup.fish
+[78.826s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/local_setup.sh
+[78.846s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/local_setup.zsh
+[78.865s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/local_setup.dsv
+[78.885s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/package.dsv
+[78.905s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/ament_index/resource_index/packages/marine_acoustic_msgs
+[78.925s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs-2.1.0-py3.14.egg-info/PKG-INFO
+[78.945s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs-2.1.0-py3.14.egg-info/SOURCES.txt
+[78.965s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs-2.1.0-py3.14.egg-info/dependency_links.txt
+[78.985s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs-2.1.0-py3.14.egg-info/top_level.txt
+[79.006s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/__init__.py
+[79.026s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/_marine_acoustic_msgs_s.ep.rosidl_typesupport_c.c
+[79.046s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/_marine_acoustic_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[79.065s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/_marine_acoustic_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[79.085s] -- Up-to-date symlink: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/marine_acoustic_msgs_s__rosidl_typesupport_c.so
+[79.085s] -- Up-to-date symlink: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/marine_acoustic_msgs_s__rosidl_typesupport_fastrtps_c.so
+[79.085s] -- Up-to-date symlink: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/marine_acoustic_msgs_s__rosidl_typesupport_introspection_c.so
+[79.086s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg/__init__.py
+[79.105s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg/_detection_flag.py
+[79.125s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg/_detection_flag_s.c
+[79.144s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg/_dvl.py
+[79.164s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg/_dvl_s.c
+[79.183s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg/_ping_info.py
+[79.203s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg/_ping_info_s.c
+[79.223s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg/_projected_sonar_image.py
+[79.242s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg/_projected_sonar_image_s.c
+[79.262s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg/_raw_sonar_image.py
+[79.282s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg/_raw_sonar_image_s.c
+[79.302s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg/_sonar_detections.py
+[79.322s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg/_sonar_detections_s.c
+[79.342s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg/_sonar_image_data.py
+[79.361s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg/_sonar_image_data_s.c
+[79.381s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg/_sonar_ranges.py
+[79.400s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg/_sonar_ranges_s.c
+[79.421s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/py.typed
+[79.442s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/marine_acoustic_msgs__rosidl_generator_py-extras.cmake
+[79.463s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/rosidl_cmake-extras.cmake
+[79.483s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[79.503s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[79.523s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[79.543s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[79.562s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[79.582s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[79.602s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[79.622s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/marine_acoustic_msgsConfig.cmake
+[79.642s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/marine_acoustic_msgsConfig-version.cmake
+[79.663s] -- Symlinking: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/package.xml
+[79.683s] -- Installing: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/libmarine_acoustic_msgs__rosidl_generator_c.dylib
+[79.683s] -- Installing: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/libmarine_acoustic_msgs__rosidl_typesupport_fastrtps_c.dylib
+[79.688s] /Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/libmarine_acoustic_msgs__rosidl_typesupport_fastrtps_c.dylib
+[79.690s] [cctools-port]: generating fake signature for '/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/libmarine_acoustic_msgs__rosidl_typesupport_fastrtps_c.dylib'
+[79.712s] -- Installing: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/libmarine_acoustic_msgs__rosidl_typesupport_fastrtps_cpp.dylib
+[79.715s] /Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/libmarine_acoustic_msgs__rosidl_typesupport_fastrtps_cpp.dylib
+[79.717s] [cctools-port]: generating fake signature for '/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/libmarine_acoustic_msgs__rosidl_typesupport_fastrtps_cpp.dylib'
+[79.734s] -- Installing: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/libmarine_acoustic_msgs__rosidl_typesupport_introspection_c.dylib
+[79.738s] /Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/libmarine_acoustic_msgs__rosidl_typesupport_introspection_c.dylib
+[79.739s] [cctools-port]: generating fake signature for '/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/libmarine_acoustic_msgs__rosidl_typesupport_introspection_c.dylib'
+[79.756s] -- Installing: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/libmarine_acoustic_msgs__rosidl_typesupport_c.dylib
+[79.759s] /Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/libmarine_acoustic_msgs__rosidl_typesupport_c.dylib
+[79.760s] [cctools-port]: generating fake signature for '/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/libmarine_acoustic_msgs__rosidl_typesupport_c.dylib'
+[79.776s] -- Installing: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/libmarine_acoustic_msgs__rosidl_typesupport_introspection_cpp.dylib
+[79.780s] /Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/libmarine_acoustic_msgs__rosidl_typesupport_introspection_cpp.dylib
+[79.780s] [cctools-port]: generating fake signature for '/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/libmarine_acoustic_msgs__rosidl_typesupport_introspection_cpp.dylib'
+[79.796s] -- Installing: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/libmarine_acoustic_msgs__rosidl_typesupport_cpp.dylib
+[79.799s] /Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/libmarine_acoustic_msgs__rosidl_typesupport_cpp.dylib
+[79.800s] [cctools-port]: generating fake signature for '/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/libmarine_acoustic_msgs__rosidl_typesupport_cpp.dylib'
+[79.815s] -- Installing: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/libmarine_acoustic_msgs__rosidl_generator_py.dylib
+[79.818s] /Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/libmarine_acoustic_msgs__rosidl_generator_py.dylib
+[79.819s] [cctools-port]: generating fake signature for '/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/libmarine_acoustic_msgs__rosidl_generator_py.dylib'
+[79.835s] -- Installing: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/export_marine_acoustic_msgs__rosidl_generator_pyExport.cmake
+[79.835s] -- Installing: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/export_marine_acoustic_msgs__rosidl_generator_pyExport-noconfig.cmake
+[79.835s] -- Installing: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/export_marine_acoustic_msgs__rosidl_generator_cExport.cmake
+[79.836s] -- Installing: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/export_marine_acoustic_msgs__rosidl_generator_cExport-noconfig.cmake
+[79.836s] -- Installing: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/export_marine_acoustic_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[79.837s] -- Installing: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/export_marine_acoustic_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[79.837s] -- Installing: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/export_marine_acoustic_msgs__rosidl_generator_cppExport.cmake
+[79.837s] -- Installing: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/export_marine_acoustic_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[79.838s] -- Installing: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/export_marine_acoustic_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[79.838s] -- Installing: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/marine_acoustic_msgs__rosidl_typesupport_introspection_cExport.cmake
+[79.839s] -- Installing: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/marine_acoustic_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[79.839s] -- Installing: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/marine_acoustic_msgs__rosidl_typesupport_cExport.cmake
+[79.840s] -- Installing: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/marine_acoustic_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[79.840s] -- Installing: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/marine_acoustic_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[79.840s] -- Installing: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/marine_acoustic_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[79.841s] -- Installing: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/marine_acoustic_msgs__rosidl_typesupport_cppExport.cmake
+[79.841s] -- Installing: /Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/share/marine_acoustic_msgs/cmake/marine_acoustic_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[79.918s] Listing '/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs'...
+[79.918s] Compiling '/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/__init__.py'...
+[79.918s] Listing '/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg'...
+[79.918s] Compiling '/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg/__init__.py'...
+[79.918s] Compiling '/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg/_detection_flag.py'...
+[79.918s] Compiling '/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg/_dvl.py'...
+[79.918s] Compiling '/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg/_ping_info.py'...
+[79.918s] Compiling '/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg/_projected_sonar_image.py'...
+[79.918s] Compiling '/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg/_raw_sonar_image.py'...
+[79.919s] Compiling '/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg/_sonar_detections.py'...
+[79.919s] Compiling '/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg/_sonar_image_data.py'...
+[79.919s] Compiling '/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages/marine_acoustic_msgs/msg/_sonar_ranges.py'...
+[79.929s] Invoked command in '/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs' returned '0': CMAKE_PREFIX_PATH=/Users/yangkunyuan/ros_ws/.pixi/envs/default CONDA_ENV_SHLVL_2_PIXI_PROMPT=(ros_ws) PIXI_PROMPT=(ros_ws) SHLVL=5 _=/usr/bin/env /Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/cmake --install /Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs

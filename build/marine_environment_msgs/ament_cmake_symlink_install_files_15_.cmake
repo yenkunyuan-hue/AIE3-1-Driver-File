@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/Users/yangkunyuan/rig_ws/src/external/env_sensor/marine_environment_msgs" FILES "/Users/yangkunyuan/rig_ws/src/external/env_sensor/marine_environment_msgs/msg/SoundSpeed.msg" "DESTINATION" "share/marine_environment_msgs/msg")

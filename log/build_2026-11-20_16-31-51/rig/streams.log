@@ -1,0 +1,20 @@
+[1.196s] Invoking command in '/Users/yangkunyuan/rig_ws/build/rig': AMENT_PREFIX_PATH=/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs CONDA_ENV_SHLVL_2_PIXI_PROMPT=(ros_ws) PIXI_PROMPT=(ros_ws) PYTHONPATH=/Users/yangkunyuan/rig_ws/build/rig/prefix_override:/Users/yangkunyuan/ros_ws/.pixi/envs/default/lib/python3.14/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/yangkunyuan/rig_ws/install/rig/lib/python3.14/site-packages:/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages:${PYTHONPATH} SHLVL=5 _=/usr/bin/env /Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/python3.14 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /Users/yangkunyuan/rig_ws/build/rig/build --no-deps symlink_data
+[1.436s] running develop
+[1.547s] running egg_info
+[1.557s] creating rig.egg-info
+[1.557s] writing rig.egg-info/PKG-INFO
+[1.558s] writing dependency_links to rig.egg-info/dependency_links.txt
+[1.558s] writing requirements to rig.egg-info/requires.txt
+[1.559s] writing top-level names to rig.egg-info/top_level.txt
+[1.559s] writing manifest file 'rig.egg-info/SOURCES.txt'
+[1.579s] reading manifest file 'rig.egg-info/SOURCES.txt'
+[1.580s] writing manifest file 'rig.egg-info/SOURCES.txt'
+[1.591s] running build_ext
+[1.591s] Creating /Users/yangkunyuan/rig_ws/install/rig/lib/python3.14/site-packages/rig.egg-link (link to .)
+[1.591s] 
+[1.591s] Installed /Users/yangkunyuan/rig_ws/build/rig
+[1.591s] running symlink_data
+[1.592s] creating /Users/yangkunyuan/rig_ws/install/rig/share/ament_index/resource_index/packages
+[1.592s] symbolically linking /Users/yangkunyuan/rig_ws/build/rig/resource/rig -> /Users/yangkunyuan/rig_ws/install/rig/share/ament_index/resource_index/packages
+[1.592s] symbolically linking /Users/yangkunyuan/rig_ws/build/rig/package.xml -> /Users/yangkunyuan/rig_ws/install/rig/share/rig
+[1.625s] Invoked command in '/Users/yangkunyuan/rig_ws/build/rig' returned '0': AMENT_PREFIX_PATH=/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs CONDA_ENV_SHLVL_2_PIXI_PROMPT=(ros_ws) PIXI_PROMPT=(ros_ws) PYTHONPATH=/Users/yangkunyuan/rig_ws/build/rig/prefix_override:/Users/yangkunyuan/ros_ws/.pixi/envs/default/lib/python3.14/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/yangkunyuan/rig_ws/install/rig/lib/python3.14/site-packages:/Users/yangkunyuan/rig_ws/install/marine_acoustic_msgs/lib/python3.14/site-packages:${PYTHONPATH} SHLVL=5 _=/usr/bin/env /Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/python3.14 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /Users/yangkunyuan/rig_ws/build/rig/build --no-deps symlink_data

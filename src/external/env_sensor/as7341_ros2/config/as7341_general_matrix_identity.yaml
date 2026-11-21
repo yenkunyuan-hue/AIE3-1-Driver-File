@@ -1,0 +1,55 @@
+# Identity matrix template for AS7341 calibration.
+# This is not a radiometric calibration. It is useful for checking the YAML format.
+unit: count_per_gain_ms
+input_channels: [F1_415, F2_445, F3_480, F4_515, F5_555, F6_590, F7_630, F8_680, CLEAR, NIR]
+rows:
+  - channel_name: F1_415
+    wavelength_nm: 415.0
+    fwhm_nm: 26.0
+    bias: 0.0
+    coefficients: {F1_415: 1.0}
+  - channel_name: F2_445
+    wavelength_nm: 445.0
+    fwhm_nm: 30.0
+    bias: 0.0
+    coefficients: {F2_445: 1.0}
+  - channel_name: F3_480
+    wavelength_nm: 480.0
+    fwhm_nm: 36.0
+    bias: 0.0
+    coefficients: {F3_480: 1.0}
+  - channel_name: F4_515
+    wavelength_nm: 515.0
+    fwhm_nm: 39.0
+    bias: 0.0
+    coefficients: {F4_515: 1.0}
+  - channel_name: F5_555
+    wavelength_nm: 555.0
+    fwhm_nm: 39.0
+    bias: 0.0
+    coefficients: {F5_555: 1.0}
+  - channel_name: F6_590
+    wavelength_nm: 590.0
+    fwhm_nm: 40.0
+    bias: 0.0
+    coefficients: {F6_590: 1.0}
+  - channel_name: F7_630
+    wavelength_nm: 630.0
+    fwhm_nm: 50.0
+    bias: 0.0
+    coefficients: {F7_630: 1.0}
+  - channel_name: F8_680
+    wavelength_nm: 680.0
+    fwhm_nm: 52.0
+    bias: 0.0
+    coefficients: {F8_680: 1.0}
+  - channel_name: CLEAR
+    wavelength_nm: 0.0
+    fwhm_nm: 0.0
+    bias: 0.0
+    coefficients: {CLEAR: 1.0}
+  - channel_name: NIR
+    wavelength_nm: 0.0
+    fwhm_nm: 0.0
+    bias: 0.0
+    coefficients: {NIR: 1.0}

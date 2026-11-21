@@ -1,0 +1,22 @@
+name: AS7341 public XYZ correction matrix v3.0
+description: Public AS7341 XYZ correction matrix from VerodinDev/SpectralSensor data/XYZCorrectionMatrix_v3.0.csv. Maps exposure
+  normalized AS7341 channels to relative CIE XYZ values.
+source: https://github.com/VerodinDev/SpectralSensor/blob/master/data/XYZCorrectionMatrix_v3.0.csv
+unit: relative_xyz
+input_channels: [F1_415, F2_445, F3_480, F4_515, F5_555, F6_590, F7_630, F8_680, CLEAR, NIR]
+rows:
+- channel_name: X
+  wavelength_nm: 0.0
+  fwhm_nm: 0.0
+  bias: 0.0
+  coefficients: [0.39814, 1.2954, 0.36956, 0.10902, 0.71942, 1.7818, 1.1011, -0.039905, -0.27597, -0.02347]
+- channel_name: Y
+  wavelength_nm: 0.0
+  fwhm_nm: 0.0
+  bias: 0.0
+  coefficients: [0.01396, 0.16748, 0.23538, 1.4275, 1.8867, 1.142, 0.46497, -0.027018, -0.24468, -0.019926]
+- channel_name: Z
+  wavelength_nm: 0.0
+  fwhm_nm: 0.0
+  bias: 0.0
+  coefficients: [1.9501, 6.4549, 2.7801, 0.18501, 0.15325, 0.095394, 0.10563, 0.088661, -0.6114, -0.0093845]

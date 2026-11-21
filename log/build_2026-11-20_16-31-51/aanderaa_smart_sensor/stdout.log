@@ -1,0 +1,285 @@
+-- The C compiler identification is Clang 21.1.8
+-- The CXX compiler identification is Clang 21.1.8
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.8.8 (/Users/yangkunyuan/ros_ws/.pixi/envs/default/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclpy: 10.0.11 (/Users/yangkunyuan/ros_ws/.pixi/envs/default/share/rclpy/cmake)
+-- Found std_msgs: 5.9.3 (/Users/yangkunyuan/ros_ws/.pixi/envs/default/share/std_msgs/cmake)
+-- Found rosidl_generator_c: 5.2.1 (/Users/yangkunyuan/ros_ws/.pixi/envs/default/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 5.2.1 (/Users/yangkunyuan/ros_ws/.pixi/envs/default/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found sensor_msgs: 5.9.3 (/Users/yangkunyuan/ros_ws/.pixi/envs/default/share/sensor_msgs/cmake)
+-- Found rosidl_default_generators: 1.8.1 (/Users/yangkunyuan/ros_ws/.pixi/envs/default/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 5.2.1 (/Users/yangkunyuan/ros_ws/.pixi/envs/default/share/rosidl_adapter/cmake)
+-- Found Python3: /Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/python3 (found version "3.14.10") found components: Interpreter
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found Python3: /Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/python3 (found version "3.14.10") found components: Interpreter Development NumPy Development.Module Development.Embed
+-- Found Python3: /Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/python3 (found version "3.14.10") found components: Interpreter
+-- Configuring done (7.9s)
+-- Generating done (0.2s)
+-- Build files have been written to: /Users/yangkunyuan/rig_ws/build/aanderaa_smart_sensor
+[  1%] Generating Rust code for ROS interfaces
+[  3%] Generating type hashes for ROS interfaces
+[  3%] Built target aanderaa_smart_sensor__rosidl_generator_type_description
+[  4%] Generating C code for ROS interfaces
+[  4%] Built target aanderaa_smart_sensor__rs
+[  6%] Generating C++ code for ROS interfaces
+[  6%] Built target aanderaa_smart_sensor__cpp
+[  7%] Building C object CMakeFiles/aanderaa_smart_sensor__rosidl_generator_c.dir/rosidl_generator_c/aanderaa_smart_sensor/msg/detail/sound_speed__description.c.o
+[  9%] Building C object CMakeFiles/aanderaa_smart_sensor__rosidl_generator_c.dir/rosidl_generator_c/aanderaa_smart_sensor/msg/detail/conductivity__description.c.o
+[ 10%] Building C object CMakeFiles/aanderaa_smart_sensor__rosidl_generator_c.dir/rosidl_generator_c/aanderaa_smart_sensor/msg/detail/conductivity__functions.c.o
+[ 12%] Building C object CMakeFiles/aanderaa_smart_sensor__rosidl_generator_c.dir/rosidl_generator_c/aanderaa_smart_sensor/msg/detail/density__type_support.c.o
+[ 13%] Building C object CMakeFiles/aanderaa_smart_sensor__rosidl_generator_c.dir/rosidl_generator_c/aanderaa_smart_sensor/msg/detail/density__description.c.o
+[ 15%] Building C object CMakeFiles/aanderaa_smart_sensor__rosidl_generator_c.dir/rosidl_generator_c/aanderaa_smart_sensor/msg/detail/sound_speed__functions.c.o
+[ 16%] Building C object CMakeFiles/aanderaa_smart_sensor__rosidl_generator_c.dir/rosidl_generator_c/aanderaa_smart_sensor/msg/detail/density__functions.c.o
+[ 18%] Building C object CMakeFiles/aanderaa_smart_sensor__rosidl_generator_c.dir/rosidl_generator_c/aanderaa_smart_sensor/msg/detail/conductivity__type_support.c.o
+[ 20%] Building C object CMakeFiles/aanderaa_smart_sensor__rosidl_generator_c.dir/rosidl_generator_c/aanderaa_smart_sensor/msg/detail/sound_speed__type_support.c.o
+[ 21%] Building C object CMakeFiles/aanderaa_smart_sensor__rosidl_generator_c.dir/rosidl_generator_c/aanderaa_smart_sensor/msg/detail/turbidity__functions.c.o
+[ 23%] Building C object CMakeFiles/aanderaa_smart_sensor__rosidl_generator_c.dir/rosidl_generator_c/aanderaa_smart_sensor/msg/detail/turbidity__description.c.o
+[ 24%] Building C object CMakeFiles/aanderaa_smart_sensor__rosidl_generator_c.dir/rosidl_generator_c/aanderaa_smart_sensor/msg/detail/turbidity__type_support.c.o
+[ 26%] Linking C shared library libaanderaa_smart_sensor__rosidl_generator_c.dylib
+[ 26%] Built target aanderaa_smart_sensor__rosidl_generator_c
+[ 27%] Generating C type support dispatch for ROS interfaces
+[ 29%] Generating C++ introspection for ROS interfaces
+[ 30%] Generating C type support for eProsima Fast-RTPS
+[ 33%] Generating C++ type support dispatch for ROS interfaces
+[ 33%] Generating C introspection for ROS interfaces
+[ 36%] Building CXX object CMakeFiles/aanderaa_smart_sensor__rosidl_typesupport_c.dir/rosidl_typesupport_c/aanderaa_smart_sensor/msg/conductivity__type_support.cpp.o
+[ 36%] Building CXX object CMakeFiles/aanderaa_smart_sensor__rosidl_typesupport_c.dir/rosidl_typesupport_c/aanderaa_smart_sensor/msg/density__type_support.cpp.o
+[ 38%] Building CXX object CMakeFiles/aanderaa_smart_sensor__rosidl_typesupport_c.dir/rosidl_typesupport_c/aanderaa_smart_sensor/msg/sound_speed__type_support.cpp.o
+[ 40%] Building CXX object CMakeFiles/aanderaa_smart_sensor__rosidl_typesupport_c.dir/rosidl_typesupport_c/aanderaa_smart_sensor/msg/turbidity__type_support.cpp.o
+[ 41%] Building CXX object CMakeFiles/aanderaa_smart_sensor__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aanderaa_smart_sensor/msg/conductivity__type_support.cpp.o
+[ 43%] Linking CXX shared library libaanderaa_smart_sensor__rosidl_typesupport_c.dylib
+[ 44%] Building CXX object CMakeFiles/aanderaa_smart_sensor__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aanderaa_smart_sensor/msg/detail/conductivity__type_support.cpp.o
+[ 44%] Built target aanderaa_smart_sensor__rosidl_typesupport_c
+[ 46%] Building C object CMakeFiles/aanderaa_smart_sensor__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aanderaa_smart_sensor/msg/detail/conductivity__type_support.c.o
+[ 47%] Building C object CMakeFiles/aanderaa_smart_sensor__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aanderaa_smart_sensor/msg/detail/density__type_support.c.o
+[ 49%] Building C object CMakeFiles/aanderaa_smart_sensor__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aanderaa_smart_sensor/msg/detail/sound_speed__type_support.c.o
+[ 50%] Building CXX object CMakeFiles/aanderaa_smart_sensor__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aanderaa_smart_sensor/msg/detail/conductivity__type_support_c.cpp.o
+[ 52%] Building C object CMakeFiles/aanderaa_smart_sensor__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aanderaa_smart_sensor/msg/detail/turbidity__type_support.c.o
+[ 53%] Linking C shared library libaanderaa_smart_sensor__rosidl_typesupport_introspection_c.dylib
+[ 53%] Built target aanderaa_smart_sensor__rosidl_typesupport_introspection_c
+[ 55%] Building CXX object CMakeFiles/aanderaa_smart_sensor__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aanderaa_smart_sensor/msg/turbidity__type_support.cpp.o
+[ 56%] Building CXX object CMakeFiles/aanderaa_smart_sensor__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aanderaa_smart_sensor/msg/detail/density__type_support.cpp.o
+[ 58%] Building CXX object CMakeFiles/aanderaa_smart_sensor__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aanderaa_smart_sensor/msg/detail/turbidity__type_support_c.cpp.o
+[ 60%] Building CXX object CMakeFiles/aanderaa_smart_sensor__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aanderaa_smart_sensor/msg/sound_speed__type_support.cpp.o
+[ 61%] Building CXX object CMakeFiles/aanderaa_smart_sensor__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aanderaa_smart_sensor/msg/detail/turbidity__type_support.cpp.o
+[ 63%] Building CXX object CMakeFiles/aanderaa_smart_sensor__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aanderaa_smart_sensor/msg/detail/sound_speed__type_support_c.cpp.o
+[ 64%] Building CXX object CMakeFiles/aanderaa_smart_sensor__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aanderaa_smart_sensor/msg/density__type_support.cpp.o
+[ 66%] Building CXX object CMakeFiles/aanderaa_smart_sensor__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aanderaa_smart_sensor/msg/detail/sound_speed__type_support.cpp.o
+[ 67%] Building CXX object CMakeFiles/aanderaa_smart_sensor__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aanderaa_smart_sensor/msg/detail/density__type_support_c.cpp.o
+[ 69%] Linking CXX shared library libaanderaa_smart_sensor__rosidl_typesupport_cpp.dylib
+[ 69%] Built target aanderaa_smart_sensor__rosidl_typesupport_cpp
+[ 70%] Linking CXX shared library libaanderaa_smart_sensor__rosidl_typesupport_introspection_cpp.dylib
+[ 70%] Built target aanderaa_smart_sensor__rosidl_typesupport_introspection_cpp
+[ 72%] Linking CXX shared library libaanderaa_smart_sensor__rosidl_typesupport_fastrtps_c.dylib
+[ 72%] Built target aanderaa_smart_sensor__rosidl_typesupport_fastrtps_c
+[ 73%] Generating C++ type support for eProsima Fast-RTPS
+[ 75%] Building CXX object CMakeFiles/aanderaa_smart_sensor__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aanderaa_smart_sensor/msg/detail/dds_fastrtps/conductivity__type_support.cpp.o
+[ 76%] Building CXX object CMakeFiles/aanderaa_smart_sensor__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aanderaa_smart_sensor/msg/detail/dds_fastrtps/turbidity__type_support.cpp.o
+[ 78%] Building CXX object CMakeFiles/aanderaa_smart_sensor__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aanderaa_smart_sensor/msg/detail/dds_fastrtps/sound_speed__type_support.cpp.o
+[ 80%] Building CXX object CMakeFiles/aanderaa_smart_sensor__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aanderaa_smart_sensor/msg/detail/dds_fastrtps/density__type_support.cpp.o
+[ 81%] Linking CXX shared library libaanderaa_smart_sensor__rosidl_typesupport_fastrtps_cpp.dylib
+[ 81%] Built target aanderaa_smart_sensor__rosidl_typesupport_fastrtps_cpp
+[ 81%] Built target aanderaa_smart_sensor
+[ 83%] Generating Python code for ROS interfaces
+[ 83%] Built target aanderaa_smart_sensor__py
+[ 84%] Building C object CMakeFiles/aanderaa_smart_sensor__rosidl_generator_py.dir/rosidl_generator_py/aanderaa_smart_sensor/msg/_conductivity_s.c.o
+[ 86%] Building C object CMakeFiles/aanderaa_smart_sensor__rosidl_generator_py.dir/rosidl_generator_py/aanderaa_smart_sensor/msg/_turbidity_s.c.o
+[ 87%] Building C object CMakeFiles/aanderaa_smart_sensor__rosidl_generator_py.dir/rosidl_generator_py/aanderaa_smart_sensor/msg/_sound_speed_s.c.o
+[ 89%] Building C object CMakeFiles/aanderaa_smart_sensor__rosidl_generator_py.dir/rosidl_generator_py/aanderaa_smart_sensor/msg/_density_s.c.o
+[ 90%] Linking C shared library libaanderaa_smart_sensor__rosidl_generator_py.dylib
+[ 90%] Built target aanderaa_smart_sensor__rosidl_generator_py
+[ 90%] Built target ament_cmake_python_sync_aanderaa_smart_sensor
+[ 92%] Building C object CMakeFiles/aanderaa_smart_sensor_s__rosidl_typesupport_c.dir/rosidl_generator_py/aanderaa_smart_sensor/_aanderaa_smart_sensor_s.ep.rosidl_typesupport_c.c.o
+[ 93%] Linking C shared module rosidl_generator_py/aanderaa_smart_sensor/aanderaa_smart_sensor_s__rosidl_typesupport_c.so
+[ 93%] Built target aanderaa_smart_sensor_s__rosidl_typesupport_c
+running egg_info
+creating aanderaa_smart_sensor.egg-info
+writing aanderaa_smart_sensor.egg-info/PKG-INFO
+writing dependency_links to aanderaa_smart_sensor.egg-info/dependency_links.txt
+writing top-level names to aanderaa_smart_sensor.egg-info/top_level.txt
+writing manifest file 'aanderaa_smart_sensor.egg-info/SOURCES.txt'
+reading manifest file 'aanderaa_smart_sensor.egg-info/SOURCES.txt'
+writing manifest file 'aanderaa_smart_sensor.egg-info/SOURCES.txt'
+[ 93%] Built target ament_cmake_python_build_aanderaa_smart_sensor_egg
+[ 95%] Building C object CMakeFiles/aanderaa_smart_sensor_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/aanderaa_smart_sensor/_aanderaa_smart_sensor_s.ep.rosidl_typesupport_introspection_c.c.o
+[ 96%] Linking C shared module rosidl_generator_py/aanderaa_smart_sensor/aanderaa_smart_sensor_s__rosidl_typesupport_introspection_c.so
+[ 96%] Built target aanderaa_smart_sensor_s__rosidl_typesupport_introspection_c
+[ 98%] Building C object CMakeFiles/aanderaa_smart_sensor_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/aanderaa_smart_sensor/_aanderaa_smart_sensor_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[100%] Linking C shared module rosidl_generator_py/aanderaa_smart_sensor/aanderaa_smart_sensor_s__rosidl_typesupport_fastrtps_c.so
+[100%] Built target aanderaa_smart_sensor_s__rosidl_typesupport_fastrtps_c
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/ament_index/resource_index/rosidl_interfaces/aanderaa_smart_sensor
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/msg/Conductivity.json
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/msg/Density.json
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/msg/SoundSpeed.json
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/msg/Turbidity.json
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/conductivity.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/density.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/conductivity__functions.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/conductivity__struct.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/conductivity__type_support.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/density__functions.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/density__struct.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/density__type_support.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/sound_speed__functions.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/sound_speed__struct.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/sound_speed__type_support.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/turbidity__functions.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/turbidity__struct.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/turbidity__type_support.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/sound_speed.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/turbidity.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/conductivity__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/density__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/sound_speed__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/turbidity__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/conductivity.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/density.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/conductivity__builder.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/conductivity__struct.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/conductivity__traits.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/conductivity__type_support.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/density__builder.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/density__struct.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/density__traits.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/density__type_support.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/sound_speed__builder.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/sound_speed__struct.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/sound_speed__traits.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/sound_speed__type_support.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/turbidity__builder.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/turbidity__struct.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/turbidity__traits.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/turbidity__type_support.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/sound_speed.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/turbidity.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/conductivity__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/density__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/sound_speed__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/turbidity__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/conductivity__rosidl_typesupport_introspection_c.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/density__rosidl_typesupport_introspection_c.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/sound_speed__rosidl_typesupport_introspection_c.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/turbidity__rosidl_typesupport_introspection_c.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/conductivity__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/density__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/sound_speed__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/include/aanderaa_smart_sensor/aanderaa_smart_sensor/msg/detail/turbidity__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/environment/pythonpath.sh
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/environment/pythonpath.dsv
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/aanderaa_smart_sensor_s__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/aanderaa_smart_sensor_s__rosidl_typesupport_introspection_c.so
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/aanderaa_smart_sensor_s__rosidl_typesupport_c.so
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/rust/Cargo.toml
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/rust/build.rs
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/rust/src/lib.rs
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/rust/src/msg.rs
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/rust/src/msg/rmw.rs
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/msg/Conductivity.idl
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/msg/Density.idl
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/msg/SoundSpeed.idl
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/msg/Turbidity.idl
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/msg/Conductivity.msg
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/msg/Density.msg
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/msg/SoundSpeed.msg
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/msg/Turbidity.msg
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/aanderaa_smart_sensor/smart_sensor_serial.py
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/launch/aanderaa_turbidity_sensor.launch.py
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/ament_index/resource_index/package_run_dependencies/aanderaa_smart_sensor
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/ament_index/resource_index/parent_prefix_path/aanderaa_smart_sensor
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/environment/ament_prefix_path.sh
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/environment/ament_prefix_path.dsv
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/environment/path.sh
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/environment/path.dsv
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/local_setup.bash
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/local_setup.fish
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/local_setup.sh
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/local_setup.zsh
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/local_setup.dsv
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/package.dsv
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/ament_index/resource_index/packages/aanderaa_smart_sensor
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor-0.2.1-py3.14.egg-info/PKG-INFO
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor-0.2.1-py3.14.egg-info/SOURCES.txt
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor-0.2.1-py3.14.egg-info/dependency_links.txt
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor-0.2.1-py3.14.egg-info/top_level.txt
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/__init__.py
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/_aanderaa_smart_sensor_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/_aanderaa_smart_sensor_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/_aanderaa_smart_sensor_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date symlink: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/aanderaa_smart_sensor_s__rosidl_typesupport_c.so
+-- Up-to-date symlink: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/aanderaa_smart_sensor_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/aanderaa_smart_sensor_s__rosidl_typesupport_introspection_c.so
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/msg/__init__.py
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/msg/_conductivity.py
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/msg/_conductivity_s.c
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/msg/_density.py
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/msg/_density_s.c
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/msg/_sound_speed.py
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/msg/_sound_speed_s.c
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/msg/_turbidity.py
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/msg/_turbidity_s.c
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/py.typed
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/aanderaa_smart_sensor__rosidl_generator_py-extras.cmake
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/aanderaa_smart_sensorConfig.cmake
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/aanderaa_smart_sensorConfig-version.cmake
+-- Symlinking: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/package.xml
+-- Installing: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/libaanderaa_smart_sensor__rosidl_generator_c.dylib
+-- Installing: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/libaanderaa_smart_sensor__rosidl_typesupport_fastrtps_c.dylib
+-- Installing: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/libaanderaa_smart_sensor__rosidl_typesupport_fastrtps_cpp.dylib
+-- Installing: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/libaanderaa_smart_sensor__rosidl_typesupport_introspection_c.dylib
+-- Installing: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/libaanderaa_smart_sensor__rosidl_typesupport_c.dylib
+-- Installing: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/libaanderaa_smart_sensor__rosidl_typesupport_introspection_cpp.dylib
+-- Installing: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/libaanderaa_smart_sensor__rosidl_typesupport_cpp.dylib
+-- Installing: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/libaanderaa_smart_sensor__rosidl_generator_py.dylib
+-- Installing: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/export_aanderaa_smart_sensor__rosidl_generator_pyExport.cmake
+-- Installing: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/export_aanderaa_smart_sensor__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/export_aanderaa_smart_sensor__rosidl_generator_cExport.cmake
+-- Installing: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/export_aanderaa_smart_sensor__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/export_aanderaa_smart_sensor__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/export_aanderaa_smart_sensor__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/export_aanderaa_smart_sensor__rosidl_generator_cppExport.cmake
+-- Installing: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/export_aanderaa_smart_sensor__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/export_aanderaa_smart_sensor__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/aanderaa_smart_sensor__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/aanderaa_smart_sensor__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/aanderaa_smart_sensor__rosidl_typesupport_cExport.cmake
+-- Installing: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/aanderaa_smart_sensor__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/aanderaa_smart_sensor__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/aanderaa_smart_sensor__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/aanderaa_smart_sensor__rosidl_typesupport_cppExport.cmake
+-- Installing: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/share/aanderaa_smart_sensor/cmake/aanderaa_smart_sensor__rosidl_typesupport_cppExport-noconfig.cmake
+Listing '/Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor'...
+Compiling '/Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/__init__.py'...
+Listing '/Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/msg'...
+Compiling '/Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/msg/__init__.py'...
+Compiling '/Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/msg/_conductivity.py'...
+Compiling '/Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/msg/_density.py'...
+Compiling '/Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/msg/_sound_speed.py'...
+Compiling '/Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/python3.14/site-packages/aanderaa_smart_sensor/msg/_turbidity.py'...

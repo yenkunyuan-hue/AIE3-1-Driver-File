@@ -1,0 +1,24 @@
+CMake Warning (deprecated) at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+to suppress it.
+
+/Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/libaanderaa_smart_sensor__rosidl_typesupport_fastrtps_c.dylib
+[cctools-port]: generating fake signature for '/Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/libaanderaa_smart_sensor__rosidl_typesupport_fastrtps_c.dylib'
+/Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/libaanderaa_smart_sensor__rosidl_typesupport_fastrtps_cpp.dylib
+[cctools-port]: generating fake signature for '/Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/libaanderaa_smart_sensor__rosidl_typesupport_fastrtps_cpp.dylib'
+/Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/libaanderaa_smart_sensor__rosidl_typesupport_introspection_c.dylib
+[cctools-port]: generating fake signature for '/Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/libaanderaa_smart_sensor__rosidl_typesupport_introspection_c.dylib'
+/Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/libaanderaa_smart_sensor__rosidl_typesupport_c.dylib
+[cctools-port]: generating fake signature for '/Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/libaanderaa_smart_sensor__rosidl_typesupport_c.dylib'
+/Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/libaanderaa_smart_sensor__rosidl_typesupport_introspection_cpp.dylib
+[cctools-port]: generating fake signature for '/Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/libaanderaa_smart_sensor__rosidl_typesupport_introspection_cpp.dylib'
+/Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/libaanderaa_smart_sensor__rosidl_typesupport_cpp.dylib
+[cctools-port]: generating fake signature for '/Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/libaanderaa_smart_sensor__rosidl_typesupport_cpp.dylib'
+/Users/yangkunyuan/ros_ws/.pixi/envs/default/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/libaanderaa_smart_sensor__rosidl_generator_py.dylib
+[cctools-port]: generating fake signature for '/Users/yangkunyuan/rig_ws/install/aanderaa_smart_sensor/lib/libaanderaa_smart_sensor__rosidl_generator_py.dylib'

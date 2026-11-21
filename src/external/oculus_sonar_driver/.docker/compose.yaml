@@ -1,0 +1,38 @@
+services:
+
+  # Development image, mounts this source directory into the image
+
+  kilted:  &kilted-service
+    image: oculus_driver:kilted
+    build:
+      dockerfile: Dockerfile
+      args:
+        ROS_DISTRO: kilted
+    tty: true
+    network_mode: host
+    volumes:
+      - type: bind
+        source: ../../
+        target: /home/ubuntu/oculus_ws/src
+    command: run_zenohd.sh
+
+  jazzy:
+    <<: *kilted-service
+    image: oculus_driver:jazzy
+    build:
+      args:
+        ROS_DISTRO: jazzy
+
+  lyrical:
+    <<: *kilted-service
+    image: oculus_driver:lyrical
+    build:
+      args:
+        ROS_DISTRO: lyrical
+
+  rolling:
+    <<: *kilted-service
+    image: oculus_driver:rolling
+    build:
+      args:
+        ROS_DISTRO: rolling

@@ -1,0 +1,8 @@
+camera_node:
+  ros__parameters:
+    rtsp_url: "rtsp://admin:Aau12345@192.168.200.65:554/Streaming/Channels/101"
+    #101 is high quality, 102 is low
+
+    camera_topic: "oceantool/image_raw"   # topic name
+    frame: "camera"                  # frame_id, use in Rviz for callibration 
+    fps: 10                    

@@ -1,0 +1,5 @@
+arduino:
+  ros__parameters:
+    serial: "/dev/ttyACM0"
+    baud_rate: 9600
+    move_period: 1 #unit in second

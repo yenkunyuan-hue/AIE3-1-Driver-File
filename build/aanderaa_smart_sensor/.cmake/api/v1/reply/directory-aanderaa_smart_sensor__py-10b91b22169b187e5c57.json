@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 12
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "aanderaa_smart_sensor__py",
+		"source" : "/Users/yangkunyuan/rig_ws/build/aanderaa_smart_sensor/aanderaa_smart_sensor__py"
+	}
+}

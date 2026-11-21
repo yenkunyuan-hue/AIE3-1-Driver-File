@@ -1,0 +1,1 @@
+/Users/yangkunyuan/rig_ws/src/external/env_sensor/marine_environment_msgs/msg/SpectralReading.msg

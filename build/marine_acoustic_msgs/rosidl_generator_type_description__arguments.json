@@ -1,0 +1,19 @@
+{
+  "package_name": "marine_acoustic_msgs",
+  "output_dir": "/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs/rosidl_generator_type_description/marine_acoustic_msgs",
+  "idl_tuples": [
+    "/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs/rosidl_adapter/marine_acoustic_msgs:msg/DetectionFlag.idl",
+    "/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs/rosidl_adapter/marine_acoustic_msgs:msg/Dvl.idl",
+    "/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs/rosidl_adapter/marine_acoustic_msgs:msg/PingInfo.idl",
+    "/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs/rosidl_adapter/marine_acoustic_msgs:msg/ProjectedSonarImage.idl",
+    "/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs/rosidl_adapter/marine_acoustic_msgs:msg/RawSonarImage.idl",
+    "/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs/rosidl_adapter/marine_acoustic_msgs:msg/SonarDetections.idl",
+    "/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs/rosidl_adapter/marine_acoustic_msgs:msg/SonarImageData.idl",
+    "/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs/rosidl_adapter/marine_acoustic_msgs:msg/SonarRanges.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/Users/yangkunyuan/ros_ws/.pixi/envs/default/share/geometry_msgs/",
+    "std_msgs:/Users/yangkunyuan/ros_ws/.pixi/envs/default/share/std_msgs/",
+    "builtin_interfaces:/Users/yangkunyuan/ros_ws/.pixi/envs/default/share/builtin_interfaces/"
+  ]
+}

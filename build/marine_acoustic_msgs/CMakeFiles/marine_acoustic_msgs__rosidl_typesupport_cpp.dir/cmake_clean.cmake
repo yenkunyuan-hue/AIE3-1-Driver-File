@@ -1,0 +1,33 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marine_acoustic_msgs/msg/detection_flag__type_support.cpp.o"
+  "CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marine_acoustic_msgs/msg/detection_flag__type_support.cpp.o.d"
+  "CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marine_acoustic_msgs/msg/dvl__type_support.cpp.o"
+  "CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marine_acoustic_msgs/msg/dvl__type_support.cpp.o.d"
+  "CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marine_acoustic_msgs/msg/ping_info__type_support.cpp.o"
+  "CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marine_acoustic_msgs/msg/ping_info__type_support.cpp.o.d"
+  "CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marine_acoustic_msgs/msg/projected_sonar_image__type_support.cpp.o"
+  "CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marine_acoustic_msgs/msg/projected_sonar_image__type_support.cpp.o.d"
+  "CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marine_acoustic_msgs/msg/raw_sonar_image__type_support.cpp.o"
+  "CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marine_acoustic_msgs/msg/raw_sonar_image__type_support.cpp.o.d"
+  "CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marine_acoustic_msgs/msg/sonar_detections__type_support.cpp.o"
+  "CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marine_acoustic_msgs/msg/sonar_detections__type_support.cpp.o.d"
+  "CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marine_acoustic_msgs/msg/sonar_image_data__type_support.cpp.o"
+  "CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marine_acoustic_msgs/msg/sonar_image_data__type_support.cpp.o.d"
+  "CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marine_acoustic_msgs/msg/sonar_ranges__type_support.cpp.o"
+  "CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marine_acoustic_msgs/msg/sonar_ranges__type_support.cpp.o.d"
+  "libmarine_acoustic_msgs__rosidl_typesupport_cpp.dylib"
+  "libmarine_acoustic_msgs__rosidl_typesupport_cpp.pdb"
+  "rosidl_typesupport_cpp/marine_acoustic_msgs/msg/detection_flag__type_support.cpp"
+  "rosidl_typesupport_cpp/marine_acoustic_msgs/msg/dvl__type_support.cpp"
+  "rosidl_typesupport_cpp/marine_acoustic_msgs/msg/ping_info__type_support.cpp"
+  "rosidl_typesupport_cpp/marine_acoustic_msgs/msg/projected_sonar_image__type_support.cpp"
+  "rosidl_typesupport_cpp/marine_acoustic_msgs/msg/raw_sonar_image__type_support.cpp"
+  "rosidl_typesupport_cpp/marine_acoustic_msgs/msg/sonar_detections__type_support.cpp"
+  "rosidl_typesupport_cpp/marine_acoustic_msgs/msg/sonar_image_data__type_support.cpp"
+  "rosidl_typesupport_cpp/marine_acoustic_msgs/msg/sonar_ranges__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/marine_acoustic_msgs__rosidl_typesupport_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

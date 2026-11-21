@@ -1,0 +1,1 @@
+/Users/yangkunyuan/rig_ws/build/marine_environment_msgs/rosidl_generator_rs/marine_environment_msgs/rust/src/lib.rs

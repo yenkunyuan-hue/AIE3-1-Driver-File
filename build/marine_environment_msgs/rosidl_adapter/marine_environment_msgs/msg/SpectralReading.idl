@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from marine_environment_msgs/msg/SpectralReading.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module marine_environment_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Generic point spectral sensor reading." "\n"
+      "Arrays are aligned by index.")
+    struct SpectralReading {
+      std_msgs::msg::Header header;
+
+      sequence<string> channel_name;
+
+      sequence<float> wavelength_nm;
+
+      sequence<float> fwhm_nm;
+
+      sequence<float> intensity;
+
+      sequence<uint16> raw;
+
+      string unit;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/Users/yangkunyuan/rig_ws/build/aanderaa_smart_sensor/rosidl_generator_py/aanderaa_smart_sensor/aanderaa_smart_sensor_s__rosidl_typesupport_c.so" "TARGETS" "aanderaa_smart_sensor_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.14/site-packages/aanderaa_smart_sensor")

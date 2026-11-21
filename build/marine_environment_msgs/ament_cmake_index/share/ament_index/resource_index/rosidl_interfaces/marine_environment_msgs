@@ -1,0 +1,10 @@
+msg/Conductivity.idl
+msg/Conductivity.msg
+msg/Density.idl
+msg/Density.msg
+msg/SoundSpeed.idl
+msg/SoundSpeed.msg
+msg/SpectralReading.idl
+msg/SpectralReading.msg
+msg/Turbidity.idl
+msg/Turbidity.msg

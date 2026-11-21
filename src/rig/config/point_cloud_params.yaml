@@ -1,0 +1,13 @@
+sonar_cloud:
+  ros__parameters:
+    input_topic: "sonar_image"
+    output_topic: "sonar_cloud"
+    frame_id: "sonar"
+    publish_all_points: false
+    use_intensity: true
+    cmin: 0.74
+    threshold: 0.90
+    elev_steps: 2
+    min_elev_deg: -10.0
+    max_elev_deg: 10.0
+    message_type: "marine_acoustic_msgs"

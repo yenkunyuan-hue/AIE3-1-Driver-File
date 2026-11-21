@@ -1,0 +1,3 @@
+source;share/marine_acoustic_msgs/environment/ament_prefix_path.sh
+source;share/marine_acoustic_msgs/environment/path.sh
+source;share/marine_acoustic_msgs/environment/pythonpath.sh

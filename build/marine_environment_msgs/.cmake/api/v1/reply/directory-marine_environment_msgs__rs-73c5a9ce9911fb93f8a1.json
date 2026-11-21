@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 12
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "marine_environment_msgs__rs",
+		"source" : "/Users/yangkunyuan/rig_ws/build/marine_environment_msgs/marine_environment_msgs__rs"
+	}
+}
