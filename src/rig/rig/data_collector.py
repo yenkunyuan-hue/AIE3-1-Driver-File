@@ -70,7 +70,7 @@ class reader(Node):
                       reliability=ReliabilityPolicy.RELIABLE)
         #------------------------------------------------------------
         self.declare_parameter('path', '/home/yen/dataset')
-        self.declare_parameter('light_levels', [0.3, 0.5, 0.7, 1.0])
+        self.declare_parameter('light_levels', [0.0, 0.3, 0.5, 0.7, 1.0])
         self.path = self.get_parameter('path').value
         self.light_level = self.get_parameter('light_levels').value
         self.time = self.get_clock().now().nanoseconds / 1e9
@@ -80,7 +80,6 @@ class reader(Node):
         self.counter = 1
         self.camera = deque(maxlen=10)
         self.sonar = deque(maxlen=10)
-        self.env_dict = {name:deque(maxlen=10) for name, _, _ in env_topics}
         env_topics = [
     ('lux',          Illuminance,     '/veml7700/illuminance'),
     ('spectral',     SpectralReading, '/as7341/spectral'),
@@ -90,6 +89,7 @@ class reader(Node):
     ('density',      Density,         '/density'),
     ('sound_speed',  SoundSpeed,      '/sound_speed'),
     ('raw_string',   String,          '/raw_string')]
+        self.env_dict = {name:deque(maxlen=10) for name, _, _ in env_topics}
         #------------------------------------------------------------
         #motor-light monitor
         self.motor_status = False
@@ -157,40 +157,54 @@ class reader(Node):
         self.light.publish(msg=Float32(data=val))
 
     def get_time(self):
-        delta_t = self.time - self.get_clock().now().nanoseconds / 1e9
+        delta_t = self.get_clock().now().nanoseconds / 1e9 - self.time
         return delta_t
 
     def store(self):
         if self.motor_status and self.light_status:    
             data = {}
             t_cam, cam_img = self.camera[-1]
+            self.camera.clear()
             t_son, son_img = self.sonar[-1]
+            self.sonar.clear()
             cam_path, sonar_path, json_path= self.name_assemble(t_cam, t_son)
             cv2.imwrite(cam_path, cam_img)
             np.savez_compressed(sonar_path, son_img)
             draw_cloud_image(pts=son_img, max_range=2, path=f'{sonar_path}.png')
-
             for key, value in self.env_dict.items():
-                if value[-1] is None:
-                    value[-1] = 'NA'
-                data[key] = value[-1]
+                data[key] = value[-1] if value else 'None'
+
             with open (json_path, 'w') as f:
                 json.dump(data,f, indent=4, default=message_to_ordereddict)
 
-            if self.idx == 3:
+            for key in self.env_dict:
+                self.env_dict[key].clear()
+            #clear up the dictionary
+
+            if self.idx == 4:
+                self.idx = 0
+                self.light_on()
                 self.motor_move()
-                self.idx = 0 
+                self.light_status = False
                 self.motor_status = False
             else:
-                self.light_on()
                 self.idx += 1
+                self.light_on()
                 self.light_status = False
         else:
             self.get_logger().info('motor/light is working')
 
-            
+def main():
+    rclpy.init()
+    node = reader()
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        pass
+    node.destroy_node()
 
-        
+if __name__ == '__main__':
+    main()
         
 
 

@@ -22,11 +22,11 @@ class arduino(Node):
         move_period = self.get_parameter('move_period').value
     #------------------------------------------
         self.serial = serial.Serial(port=serial_ad, baudrate=baud_rate)
+        self.serial.reset_input_buffer()
         time.sleep(2)
         self.serial.write((f'S{move_period}S\n').encode())
         self.serial.write((f'L{1100}L\n').encode())
         time.sleep(2)
-        self.serial.reset_input_buffer()
         self.serial.reset_output_buffer()
         self.get_logger().info("Connect to Arduino")
     #------------------------------------------
@@ -68,9 +68,11 @@ class arduino(Node):
             if text.startswith('M'):
                 self.motor_status.publish(Int8(data=1))      # <-- publish
                 self.get_logger().info(f'motor done')
+                self.serial.write('R'.encode())
             elif text.startswith('L'):
                 self.light_status.publish(Int8(data=1))
                 self.get_logger().info(f'light done')
+                self.serial.write('R'.encode())
 def main():
     rclpy.init()
     node = arduino()
