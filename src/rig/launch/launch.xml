@@ -24,7 +24,7 @@
   </node>
 
   <!-- 4. Reader -->
-  <node pkg="rig" exec="data_collector" name="reader" output="screen">
+  <node pkg="rig" exec="reader" name="reader" output="screen">
     <param from="$(find-pkg-share rig)/config/reader_params.yaml"/>
   </node>
 </launch>

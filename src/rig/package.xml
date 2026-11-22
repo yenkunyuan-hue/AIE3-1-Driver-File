@@ -13,12 +13,16 @@
   <depend>cv_bridge</depend>
   <depend>marine_acoustic_msgs</depend>
   <depend>aanderaa_smart_sensor</depend>
+  <depend>marine_environment_msgs</depend>
 
   <exec_depend>blueros2_oceantool_camera</exec_depend> 
   <exec_depend>oculus_sonar_driver</exec_depend>
   <exec_depend>python3-serial</exec_depend>
   <exec_depend>python3-numpy</exec_depend>
   <exec_depend>python3-matplotlib</exec_depend>
+  <exec_depend>sensor_msgs_py</exec_depend>
+  <exec_depend>rosidl_runtime_py</exec_depend>
+  <exec_depend>python3-opencv</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
