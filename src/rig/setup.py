@@ -28,7 +28,8 @@ setup(
     },
     entry_points={
         'console_scripts': ['arduino = rig.arudino:main',
-                            'sonar_cloud = rig.sonar_pointcloud:main'
+                            'sonar_cloud = rig.sonar_pointcloud:main',
+                            'reader = rig.data_collector:main'
         ],
     },
 )

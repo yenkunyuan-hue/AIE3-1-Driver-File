@@ -22,4 +22,9 @@
   <node pkg="rig" exec="arduino" name="arduino" output="screen">
     <param from="$(find-pkg-share rig)/config/arduino_params.yaml"/>
   </node>
+
+  <!-- 4. Reader -->
+  <node pkg="rig" exec="data_collector" name="reader" output="screen">
+    <param from="$(find-pkg-share rig)/config/reader_params.yaml"/>
+  </node>
 </launch>

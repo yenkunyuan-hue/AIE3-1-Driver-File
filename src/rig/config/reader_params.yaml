@@ -1,0 +1,4 @@
+reader:
+  ros__parameters:
+    path: "/home/yen/dataset"
+    light_levels: [0.0, 0.3, 0.5, 0.7, 1.0]
