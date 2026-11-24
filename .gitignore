@@ -2,3 +2,7 @@
 /git_backup_20261121.tar.gz
 /install
 /build
+/log
+
+__pycache__/
+*.pyc

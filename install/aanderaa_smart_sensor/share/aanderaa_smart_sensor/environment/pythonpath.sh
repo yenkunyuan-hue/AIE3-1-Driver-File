@@ -1,1 +1,0 @@
-/Users/yangkunyuan/rig_ws/build/aanderaa_smart_sensor/ament_cmake_environment_hooks/pythonpath.sh

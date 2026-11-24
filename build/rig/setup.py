@@ -1,1 +1,0 @@
-/Users/yangkunyuan/rig_ws/src/rig/setup.py

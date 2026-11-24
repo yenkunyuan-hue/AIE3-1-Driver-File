@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/Users/yangkunyuan/rig_ws/src/external/env_sensor/marine_environment_msgs" FILES "/Users/yangkunyuan/rig_ws/build/marine_environment_msgs/rosidl_cmake/rosidl_cmake_aggregate_target-extras.cmake" "DESTINATION" "share/marine_environment_msgs/cmake")

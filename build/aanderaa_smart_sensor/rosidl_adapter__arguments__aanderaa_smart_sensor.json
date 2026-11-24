@@ -1,9 +1,0 @@
-{
-  "package_name": "aanderaa_smart_sensor",
-  "non_idl_tuples": [
-    "/Users/yangkunyuan/rig_ws/src/external/env_sensor/aanderaa_smart_sensor:msg/Conductivity.msg",
-    "/Users/yangkunyuan/rig_ws/src/external/env_sensor/aanderaa_smart_sensor:msg/Density.msg",
-    "/Users/yangkunyuan/rig_ws/src/external/env_sensor/aanderaa_smart_sensor:msg/SoundSpeed.msg",
-    "/Users/yangkunyuan/rig_ws/src/external/env_sensor/aanderaa_smart_sensor:msg/Turbidity.msg"
-  ]
-}

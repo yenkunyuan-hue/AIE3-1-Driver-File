@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/Users/yangkunyuan/rig_ws/src/external/env_sensor/aanderaa_smart_sensor" FILES "/Users/yangkunyuan/rig_ws/build/aanderaa_smart_sensor/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/aanderaa_smart_sensor/environment")

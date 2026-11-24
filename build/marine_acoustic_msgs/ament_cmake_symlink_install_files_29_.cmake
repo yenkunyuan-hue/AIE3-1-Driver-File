@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/Users/yangkunyuan/rig_ws/src/external/marine_msgs/marine_acoustic_msgs" FILES "/Users/yangkunyuan/ros_ws/.pixi/envs/default/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/marine_acoustic_msgs/environment")

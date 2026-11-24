@@ -1,1 +1,0 @@
-/Users/yangkunyuan/rig_ws/src/external/env_sensor/aanderaa_smart_sensor/msg/Density.msg

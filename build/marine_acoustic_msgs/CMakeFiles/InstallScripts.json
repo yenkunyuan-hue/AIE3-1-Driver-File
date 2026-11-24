@@ -1,9 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs/cmake_install.cmake",
-		"/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs/marine_acoustic_msgs__py/cmake_install.cmake",
-		"/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs/marine_acoustic_msgs__rs/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

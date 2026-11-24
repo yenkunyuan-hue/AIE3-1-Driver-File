@@ -1,1 +1,0 @@
-/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs/rosidl_generator_cpp/marine_acoustic_msgs/msg/detail/ping_info__type_support.hpp

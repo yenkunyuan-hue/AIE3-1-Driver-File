@@ -1,8 +1,0 @@
-/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs/rosidl_adapter/marine_acoustic_msgs:msg/DetectionFlag.idl
-/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs/rosidl_adapter/marine_acoustic_msgs:msg/Dvl.idl
-/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs/rosidl_adapter/marine_acoustic_msgs:msg/PingInfo.idl
-/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs/rosidl_adapter/marine_acoustic_msgs:msg/ProjectedSonarImage.idl
-/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs/rosidl_adapter/marine_acoustic_msgs:msg/RawSonarImage.idl
-/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs/rosidl_adapter/marine_acoustic_msgs:msg/SonarDetections.idl
-/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs/rosidl_adapter/marine_acoustic_msgs:msg/SonarImageData.idl
-/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs/rosidl_adapter/marine_acoustic_msgs:msg/SonarRanges.idl

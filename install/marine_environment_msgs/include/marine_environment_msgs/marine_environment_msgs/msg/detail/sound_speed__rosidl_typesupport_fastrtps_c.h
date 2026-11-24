@@ -1,1 +1,0 @@
-/Users/yangkunyuan/rig_ws/build/marine_environment_msgs/rosidl_typesupport_fastrtps_c/marine_environment_msgs/msg/detail/sound_speed__rosidl_typesupport_fastrtps_c.h

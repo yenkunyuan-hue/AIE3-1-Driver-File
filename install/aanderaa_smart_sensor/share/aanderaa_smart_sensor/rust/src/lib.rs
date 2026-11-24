@@ -1,1 +1,0 @@
-/Users/yangkunyuan/rig_ws/build/aanderaa_smart_sensor/rosidl_generator_rs/aanderaa_smart_sensor/rust/src/lib.rs

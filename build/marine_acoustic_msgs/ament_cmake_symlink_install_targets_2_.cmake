@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs/rosidl_generator_py/marine_acoustic_msgs/marine_acoustic_msgs_s__rosidl_typesupport_c.so" "TARGETS" "marine_acoustic_msgs_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.14/site-packages/marine_acoustic_msgs")

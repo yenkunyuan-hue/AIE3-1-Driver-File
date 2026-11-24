@@ -1,1 +1,0 @@
-/Users/yangkunyuan/ros_ws/.pixi/envs/default/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh

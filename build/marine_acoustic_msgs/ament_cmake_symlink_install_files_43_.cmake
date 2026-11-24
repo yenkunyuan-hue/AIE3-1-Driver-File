@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/Users/yangkunyuan/rig_ws/src/external/marine_msgs/marine_acoustic_msgs" FILES "/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/marine_acoustic_msgs/cmake")

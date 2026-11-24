@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/Users/yangkunyuan/rig_ws/src/external/marine_msgs/marine_acoustic_msgs" FILES "/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs/rosidl_generator_py/marine_acoustic_msgs__rosidl_generator_py-extras.cmake" "DESTINATION" "share/marine_acoustic_msgs/cmake")

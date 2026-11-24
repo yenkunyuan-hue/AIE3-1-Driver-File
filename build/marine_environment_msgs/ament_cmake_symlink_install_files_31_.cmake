@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/Users/yangkunyuan/rig_ws/src/external/env_sensor/marine_environment_msgs" FILES "/Users/yangkunyuan/rig_ws/build/marine_environment_msgs/rosidl_generator_py/marine_environment_msgs__rosidl_generator_py-extras.cmake" "DESTINATION" "share/marine_environment_msgs/cmake")

@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/Users/yangkunyuan/rig_ws/src/external/env_sensor/aanderaa_smart_sensor" FILES "/Users/yangkunyuan/rig_ws/build/aanderaa_smart_sensor/rosidl_generator_py/aanderaa_smart_sensor__rosidl_generator_py-extras.cmake" "DESTINATION" "share/aanderaa_smart_sensor/cmake")

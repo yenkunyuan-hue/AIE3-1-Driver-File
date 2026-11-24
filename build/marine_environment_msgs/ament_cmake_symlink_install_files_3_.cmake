@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/Users/yangkunyuan/rig_ws/src/external/env_sensor/marine_environment_msgs" FILES "/Users/yangkunyuan/rig_ws/build/marine_environment_msgs/rosidl_generator_type_description/marine_environment_msgs/msg/SoundSpeed.json" "DESTINATION" "share/marine_environment_msgs/msg")

@@ -1,1 +1,0 @@
-/Users/yangkunyuan/rig_ws/build/marine_acoustic_msgs/rosidl_generator_rs/marine_acoustic_msgs/rust/src/msg.rs
