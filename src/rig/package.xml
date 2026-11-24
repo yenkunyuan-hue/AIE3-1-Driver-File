@@ -11,9 +11,9 @@
   <depend>std_msgs</depend>
   <depend>sensor_msgs</depend>
   <depend>cv_bridge</depend>
-  <depend>marine_acoustic_msgs</depend>
+  <depend>as7341_msgs</depend>
   <depend>aanderaa_smart_sensor</depend>
-  <depend>marine_environment_msgs</depend>
+  <depend>marine_acoustic_msgs</depend>
 
   <exec_depend>blueros2_oceantool_camera</exec_depend> 
   <exec_depend>oculus_sonar_driver</exec_depend>

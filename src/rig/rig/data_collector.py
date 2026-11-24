@@ -8,7 +8,7 @@ import cv2
 from collections import deque
 from sensor_msgs_py import point_cloud2
 from aanderaa_smart_sensor.msg import Turbidity, Conductivity, Density, SoundSpeed
-from marine_environment_msgs.msg import SpectralReading
+from as7341_msgs.msg import SpectralReading, AS7341Reading         
 from sensor_msgs.msg import Image, PointCloud2, Illuminance, Temperature
 from rclpy.qos import QoSProfile, ReliabilityPolicy, HistoryPolicy
 import cv2
@@ -83,12 +83,10 @@ class reader(Node):
         env_topics = [
     ('lux',          Illuminance,     '/veml7700/illuminance'),
     ('spectral',     SpectralReading, '/as7341/spectral'),
-    ('turbidity',    Turbidity,       '/turbidity'),
-    ('conductivity', Conductivity,    '/conductivity'),
-    ('temperature',  Temperature,     '/temperature'),
-    ('density',      Density,         '/density'),
-    ('sound_speed',  SoundSpeed,      '/sound_speed'),
-    ('raw_string',   String,          '/raw_string')]
+    ('turbidity',    Turbidity,       '/aanderaa/turbidity/turbidity'),
+    ('temperature',  Temperature,     '/aanderaa/turbidity/temperature'),
+    ('conductivity', Conductivity,    '/aanderaa/conductivity/conductivity'),
+    ('sound_speed',  SoundSpeed,      '/aanderaa/conductivity/sound_speed')]
         self.env_dict = {name:deque(maxlen=10) for name, _, _ in env_topics}
         #------------------------------------------------------------
         #motor-light monitor
@@ -172,7 +170,7 @@ class reader(Node):
             np.savez_compressed(sonar_path, son_img)
             draw_cloud_image(pts=son_img, max_range=2, path=f'{sonar_path}.png')
             for key, value in self.env_dict.items():
-                data[key] = value[-1] if value else 'None'
+                data[key] = value[-1] if value else None
 
             with open (json_path, 'w') as f:
                 json.dump(data,f, indent=4, default=message_to_ordereddict)
